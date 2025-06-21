@@ -75,6 +75,9 @@ let g:NERDTreeHighlightCursorline = 0
 " Mapeamento para abrir um terminal (yank nao funciona)
 nnoremap <silent> <C-t> :botright terminal ++rows=9<CR>
 
+autocmd BufEnter term://* silent! nnoremap <buffer> <C-c> "+y
+autocmd BufEnter term://* silent! vnoremap <buffer> <C-c> "+y
+
 if has('terminal')
   " Define as cores para o terminal
   let g:terminal_ansi_colors = [
@@ -186,6 +189,7 @@ let g:NERDDefaultAlign = 'left'
 let g:NERDDefaultLiner = '/* %s */'
 let g:NERDCompactSexyComs = 1
 map cc <Plug>NERDCommenterInvert
+map c<space> <Plug>NERDCommenterBlock
 map cs <Plug>NERDCommenterToggle
 
 
