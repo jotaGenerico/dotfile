@@ -2,15 +2,11 @@
 " Author:      jota
 " Description: hu3?
 " Last Change: 2024-08-03
-
 hi clear
-
 if exists("syntax_on")
   syntax reset
 endif
-
 let colors_name = "jota"
-
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi NonText ctermbg=NONE ctermfg=46 cterm=NONE guibg=NONE guifg=#58FF1E gui=NONE
@@ -31,22 +27,22 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi VertSplit ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi TabLine ctermbg=NONE ctermfg=98 cterm=NONE guibg=NONE guifg=#bd93f9 gui=NONE
     hi TabLineFill ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
-    hi TabLineSel ctermbg=98 ctermfg=232 cterm=NONE guibg=#bd93f9 guifg=#121212 gui=NONE
-    hi Title ctermbg=98 ctermfg=232 cterm=NONE guibg=#bd93f9 guifg=#121212 gui=NONE
-    hi CursorLine ctermbg=232 ctermfg=NONE cterm=NONE guibg=#111111 guifg=NONE gui=NONE
+    hi TabLineSel ctermbg=98 ctermfg=232 cterm=NONE guibg=#111111 guifg=#bd93f9 gui=NONE " Alterado: Fundo para #111111, foreground mantido roxo para contraste
+    hi Title ctermbg=98 ctermfg=232 cterm=NONE guibg=#111111 guifg=#bd93f9 gui=NONE " Alterado: Fundo para #111111, foreground mantido roxo para contraste
+    hi CursorLine ctermbg=232 ctermfg=NONE cterm=NONE guibg=#111111 guifg=NONE gui=NONE " Já estava como #111111, mantido.
     hi LineNr ctermbg=NONE ctermfg=98 cterm=NONE guibg=NONE guifg=#bd93f9 gui=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=46 cterm=NONE guibg=NONE guifg=#58FF1E gui=NONE
     hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi helpNormal ctermbg=NONE ctermfg=46 cterm=NONE guibg=NONE guifg=#58FF1E gui=NONE
-    hi Visual ctermbg=NONE ctermfg=98 cterm=reverse guibg=NONE guifg=#bd93f9 gui=reverse
+    hi Visual ctermbg=NONE ctermfg=98 cterm=reverse guibg=#111111 guifg=#bd93f9 gui=reverse " Alterado: Fundo para #111111
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi Pmenu ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi PmenuSbar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
+    hi PmenuSel ctermbg=NONE ctermfg=15 cterm=NONE guibg=#111111 guifg=#d7d4cd gui=NONE " Alterado: Fundo para #111111
     hi PmenuThumb ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=46 cterm=NONE guibg=NONE guifg=#58FF1E gui=NONE
-    hi Folded ctermbg=98 ctermfg=232 cterm=NONE guibg=#bd93f9 guifg=#121212 gui=NONE
-    hi WildMenu ctermbg=98 ctermfg=232 cterm=NONE guibg=#bd93f9 guifg=#121212 gui=NONE
+    hi Folded ctermbg=98 ctermfg=232 cterm=NONE guibg=#111111 guifg=#bd93f9 gui=NONE " Alterado: Fundo para #111111, foreground mantido roxo para contraste
+    hi WildMenu ctermbg=98 ctermfg=232 cterm=NONE guibg=#111111 guifg=#bd93f9 gui=NONE " Alterado: Fundo para #111111, foreground mantido roxo para contraste
     hi SpecialKey ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi DiffAdd ctermbg=46 ctermfg=232 cterm=NONE guibg=#58FF1E guifg=#121212 gui=NONE
     hi DiffChange ctermbg=208 ctermfg=232 cterm=NONE guibg=#FF8B00 guifg=#121212 gui=NONE
@@ -63,7 +59,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi ColorColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi SignColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi ErrorMsg ctermbg=NONE ctermfg=196 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
-    hi ModeMsg ctermbg=98 ctermfg=232 cterm=NONE guibg=#bd93f9 guifg=#121212 gui=NONE
+    hi ModeMsg ctermbg=98 ctermfg=232 cterm=NONE guibg=#111111 guifg=#bd93f9 gui=NONE " Alterado: Fundo para #111111, foreground mantido roxo para contraste
     hi MoreMsg ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi Question ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi Cursor ctermbg=15 ctermfg=15 cterm=NONE guibg=#d7d4cd guifg=#d7d4cd gui=NONE
@@ -74,10 +70,11 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi ToolbarButton ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#d7d4cd gui=NONE
     hi debugPC ctermbg=NONE ctermfg=196 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
     hi debugBreakpoint ctermbg=NONE ctermfg=196 cterm=NONE guibg=NONE guifg=#ff0000 gui=NONE
-
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
+    " Este bloco e para terminais com menos cores (8 ou 16)
+    " As cores ctermbg/ctermfg sao usadas aqui, nao guibg/guifg
+    " Se o problema ocorre em um terminal com 256 cores ou GUI, este bloco nao e relevante.
     set t_Co=16
-
     hi Normal ctermbg=NONE ctermfg=white cterm=NONE
     hi NonText ctermbg=NONE ctermfg=jgreen cterm=NONE
     hi Comment ctermbg=NONE ctermfg=jdarkgreen cterm=NONE
@@ -97,22 +94,22 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi VertSplit ctermbg=NONE ctermfg=white cterm=NONE
     hi TabLine ctermbg=NONE ctermfg=jpurple cterm=NONE
     hi TabLineFill ctermbg=NONE ctermfg=white cterm=NONE
-    hi TabLineSel ctermbg=jpurple ctermfg=jblack cterm=NONE
-    hi Title ctermbg=jpurple ctermfg=jblack cterm=NONE
+    hi TabLineSel ctermbg=jpurple ctermfg=jblack cterm=NONE " Manter a cor jpurple (roxa) para terminais de 16 cores aqui.
+    hi Title ctermbg=jpurple ctermfg=jblack cterm=NONE " Manter a cor jpurple (roxa) para terminais de 16 cores aqui.
     hi CursorLine ctermbg=jgray ctermfg=NONE cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=jpurple cterm=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=jgreen cterm=NONE
     hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
     hi helpNormal ctermbg=NONE ctermfg=jgreen cterm=NONE
-    hi Visual ctermbg=NONE ctermfg=jgray cterm=reverse
+    hi Visual ctermbg=NONE ctermfg=jgray cterm=reverse " Manter a cor jgray (cinza) para terminais de 16 cores aqui.
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=underline
     hi Pmenu ctermbg=NONE ctermfg=white cterm=NONE
     hi PmenuSbar ctermbg=NONE ctermfg=white cterm=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=white cterm=NONE
+    hi PmenuSel ctermbg=NONE ctermfg=white cterm=NONE " Manter a cor para terminais de 16 cores aqui.
     hi PmenuThumb ctermbg=NONE ctermfg=white cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=jgreen cterm=NONE
-    hi Folded ctermbg=jpurple ctermfg=jblack cterm=NONE
-    hi WildMenu ctermbg=jpurple ctermfg=jblack cterm=NONE
+    hi Folded ctermbg=jpurple ctermfg=jblack cterm=NONE " Manter a cor jpurple (roxa) para terminais de 16 cores aqui.
+    hi WildMenu ctermbg=jpurple ctermfg=jblack cterm=NONE " Manter a cor jpurple (roxa) para terminais de 16 cores aqui.
     hi SpecialKey ctermbg=NONE ctermfg=white cterm=NONE
     hi DiffAdd ctermbg=jgreen ctermfg=jblack cterm=NONE
     hi DiffChange ctermbg=jorange ctermfg=jblack cterm=NONE
@@ -129,7 +126,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi ColorColumn ctermbg=NONE ctermfg=white cterm=NONE
     hi SignColumn ctermbg=NONE ctermfg=white cterm=NONE
     hi ErrorMsg ctermbg=NONE ctermfg=jred cterm=NONE
-    hi ModeMsg ctermbg=jpurple ctermfg=jblack cterm=NONE
+    hi ModeMsg ctermbg=jpurple ctermfg=jblack cterm=NONE " Manter a cor jpurple (roxa) para terminais de 16 cores aqui.
     hi MoreMsg ctermbg=NONE ctermfg=white cterm=NONE
     hi Question ctermbg=NONE ctermfg=white cterm=NONE
     hi Cursor ctermbg=white ctermfg=white cterm=NONE
@@ -141,7 +138,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi debugPC ctermbg=NONE ctermfg=jred cterm=NONE
     hi debugBreakpoint ctermbg=NONE ctermfg=jred cterm=NONE
 endif
-
 hi link EndOfBuffer NonText
 hi link Number Constant
 hi link StatusLineTerm StatusLine
@@ -149,5 +145,4 @@ hi link StatusLineTermNC StatusLineNC
 hi link WarningMsg Error
 hi link CursorIM Cursor
 hi link Terminal Normal
-
 " Generated with RNB (https://github.com/romainl/vim-rnb)
