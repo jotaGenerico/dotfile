@@ -131,17 +131,53 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 map <C-a> :NERDTreeToggle<CR>
 nnoremap <leader>a :NERDTreeToggle<CR>
 
-" Shortcuts for split navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
 
-" Shortcuts for split navigation
-nnoremap <leader>h <C-w>h
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>l <C-w>l
+
+" Navegação entre splits com Ctrl + setas
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <C-Left>  <C-w>h
+nnoremap <C-Down>  <C-w>j
+nnoremap <C-Up>    <C-w>k
+nnoremap <C-Right> <C-w>l
+
+" Navegação entre buffers de código com Alt + setas (ignora NERDTree e terminal)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! SafeBufferNext()
+    let l:start = bufnr('%')
+    let l:current = l:start
+    let l:limit = bufnr('$') + 10  " segurança pra evitar loop infinito
+    while 1
+        execute 'bnext'
+        if &filetype !=# 'nerdtree' && &buftype !=# 'terminal'
+            return
+        endif
+        let l:current = bufnr('%')
+        if l:current == l:start || l:limit == 0
+            return
+        endif
+        let l:limit -= 1
+    endwhile
+endfunction
+
+function! SafeBufferPrev()
+    let l:start = bufnr('%')
+    let l:current = l:start
+    let l:limit = bufnr('$') + 10
+    while 1
+        execute 'bprevious'
+        if &filetype !=# 'nerdtree' && &buftype !=# 'terminal'
+            return
+        endif
+        let l:current = bufnr('%')
+        if l:current == l:start || l:limit == 0
+            return
+        endif
+        let l:limit -= 1
+    endwhile
+endfunction
+
+nnoremap <M-Right> :call SafeBufferNext()<CR>
+nnoremap <M-Left> :call SafeBufferPrev()<CR>
 
 
 
@@ -174,7 +210,7 @@ let g:NERDDefaultNesting = 1
 let g:NERDAltDelims_c = 1
 let g:NERDSpaceDelims = 3
 let g:NERDDefaultAlign = 'left'
-let g:NERDDefaultLiner = '// %s'
+" let g:NERDDefaultLiner = '// %s'
 let g:NERDCompactSexyComs = 1
 
 " Normal + Visual mode para melhor controle
@@ -249,12 +285,12 @@ nnoremap <leader>t :tabe<CR>
 nnoremap <leader>n :bn<CR>
 nnoremap <leader>b :bp<CR>
 
-" Criar splits
-nnoremap <leader>h :split<CR>
-nnoremap <leader>v :vsplit<CR>
+" Criar splits caso isso seja util um dia
+" nnoremap <leader>h :split<CR>
+" nnoremap <leader>v :vsplit<CR>
 
 " Fechar split / aba
-nnoremap <leader>q :q<CR>
+nnoremap <leader>q :bd<CR>
 
 " Atalho para comandos (:!)
 nnoremap <leader>c :!
