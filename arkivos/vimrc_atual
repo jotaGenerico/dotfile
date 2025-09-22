@@ -193,6 +193,7 @@ let g:airline_theme='jota'
 nnoremap <leader><Right> :bn<CR>
 nnoremap <leader><Left> :bp<CR>
 nnoremap <leader>d :bp \| bd #<CR>
+nnoremap <C-d> :bp \| bd #<CR>
 
 
 
@@ -261,8 +262,8 @@ source /home/jota/.config/nvim/forty_two.vim
 
 " Python
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
+" Força espaços só para arquivos Python
+autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 
 " Remap
