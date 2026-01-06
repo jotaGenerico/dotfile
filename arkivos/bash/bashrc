@@ -156,10 +156,15 @@ source "$OSH"/oh-my-bash.sh
 # meus alias
 export PATH=$PATH:/home/jota/Desktop/dev/42sp/norminette/bin
 alias moedor=norminette
+alias no_main='norminette $(find . \( -name "*.c" -o -name "*.h" \) ! -name "main.c")'
+
 alias gww='gcc -Wall -Wextra -Werror'
 alias ft='gcc -Wall -Wextra -Werror -o a.out main.c -L. -lft'
+
+# Aliases para manter as configurações separadas
+export PATH="$HOME/bin:$PATH"
 alias vim='/usr/bin/vim'
-alias nvim='/usr/bin/nvim'
+alias nvim='nvim'
 
 # Pyenv Lazy Load
 export PYENV_ROOT="$HOME/.pyenv"
@@ -183,3 +188,5 @@ nvm() {
 }
 node() { nvm ls >/dev/null && node "$@"; }
 npm() { nvm ls >/dev/null && npm "$@"; }
+
+export PATH="$HOME/.local/bin:$PATH"
