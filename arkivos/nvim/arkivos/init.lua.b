@@ -45,28 +45,6 @@ vim.fn['plug#end']()
 -- ========================================================================== --
 -- 2. CONFIGURAÇÃO DOS PLUGINS
 -- ========================================================================== --
--- Copilot começa DESLIGADO
-vim.g.copilot_enabled = false
-vim.g.copilot_no_tab_map = true
--- Aceitar sugestão do Copilot com Ctrl + L
-vim.api.nvim_set_keymap(
-  'i',
-  '<C-l>',
-  'copilot#Accept("\\<CR>")',
-  { expr = true, silent = true }
-)
--- Função para ligar/desligar Copilot
-_G.toggle_copilot = function()
-  if vim.g.copilot_enabled then
-    vim.cmd('Copilot disable')
-    vim.g.copilot_enabled = false
-    print("Copilot: OFF")
-  else
-    vim.cmd('Copilot enable')
-    vim.g.copilot_enabled = true
-    print("Copilot: ON")
-  end
-end
 
 -- Treesitter (syntax highlight moderno)
 require('nvim-treesitter.configs').setup({
@@ -187,40 +165,26 @@ require('nvim-tree').setup({
   },
 })
 
--- CCC começa DESLIGADO
-vim.g.coc_enabled = false
-vim.cmd('CocDisable')
-vim.g.coc_snippet_disable = 1
-vim.g.coc_snippet_next = ''
-vim.g.coc_snippet_prev = ''
--- Função para ligar/desligar CoC
-_G.toggle_coc = function()
-  if vim.g.coc_enabled == false then
-    vim.cmd('CocEnable')
-    vim.g.coc_enabled = true
-    print("CoC: ON")
-  else
-    vim.cmd('CocDisable')
-    vim.g.coc_enabled = false
-    print("CoC: OFF")
-  end
-end
+-- Copilot: não roubar TAB (jamais)
+vim.g.copilot_no_tab_map = true
 
--- Função para ligar/desligar Copilot/CoC
-_G.toggle_code_suggestions = function()
-  if vim.g.copilot_enabled or vim.g.coc_enabled then
-    vim.cmd('Copilot disable')
-    vim.cmd('CocDisable')
-    vim.g.copilot_enabled = false
-    vim.g.coc_enabled = false
-    print("Sugestões de código: OFF")
-  else
-    vim.cmd('Copilot enable')
-    vim.cmd('CocEnable')
-    vim.g.copilot_enabled = true
-    vim.g.coc_enabled = true
-    print("Sugestões de código: ON")
-  end
+-- Aceitar sugestão do Copilot com Ctrl + L
+vim.api.nvim_set_keymap(
+  'i',
+  '<C-l>',
+  'copilot#Accept("\\<CR>")',
+  { expr = true, silent = true }
+)
+
+-- Função para ligar/desligar Copilot
+_G.toggle_copilot = function()
+    if vim.g.copilot_enabled == 0 then
+        vim.cmd('Copilot disable')
+        print("Copilot ON")
+    else
+        vim.cmd('Copilot enable')
+        print("Copilot OFF")
+    end
 end
 
 -- Comment.nvim (comentários)
@@ -237,6 +201,8 @@ opt.colorcolumn = "80"
 opt.cursorline = true
 opt.expandtab = false
 opt.ignorecase = true
+opt.list = false
+opt.listchars = ""
 opt.mouse = "a"
 opt.number = true
 opt.relativenumber = true
@@ -244,7 +210,7 @@ opt.scrolloff = 10
 opt.shiftwidth = 4
 opt.signcolumn = "yes"
 opt.smartcase = true
-opt.smartindent = false
+opt.smartindent = true
 opt.splitbelow = true
 opt.splitright = true
 opt.syntax = "on"
@@ -314,9 +280,6 @@ keymap('n', '<leader>fg', ':Telescope live_grep<CR>')
 
 -- Atalho para ligar/desligar Copilot/Coc
 keymap('n', '<leader>tc', ':lua toggle_copilot()<CR>', { silent = true })
-keymap('n', '<leader>tl', ':lua toggle_coc()<CR>', { silent = true })
-keymap('n', '<leader>ta', ':lua toggle_code_suggestions()<CR>', { silent = true })
-
 
 -- Comentar e Descomentar estilo VS Code (Ctrl + /)
 -- No modo normal: comenta a linha
@@ -349,6 +312,12 @@ vim.api.nvim_create_autocmd("TermOpen", {
 
 -- TAB e ENTER devem ser SEMPRE literais (sem autocomplete automático)
 vim.api.nvim_set_keymap('i', '<Tab>', '<Tab>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<CR>', '<CR>', { noremap = true, silent = true })
+
+-- Desativa completamente snippets do CoC (evita Tab sequestrado)
+vim.g.coc_snippet_disable = 1
+vim.g.coc_snippet_next = ''
+vim.g.coc_snippet_prev = ''
 
 -- Autocomplete SOMENTE sob comando
 -- Ctrl + Space abre o menu de sugestões
