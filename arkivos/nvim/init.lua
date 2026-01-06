@@ -189,7 +189,6 @@ require('nvim-tree').setup({
 
 -- CCC começa DESLIGADO
 vim.g.coc_enabled = false
-vim.cmd('CocDisable')
 vim.g.coc_snippet_disable = 1
 vim.g.coc_snippet_next = ''
 vim.g.coc_snippet_prev = ''
