@@ -1,7 +1,8 @@
 -- ========================================================================== --
 -- 0. NODE NPM PATH (para CoC funcionar)
 -- ========================================================================== --
-vim.g.coc_node_path = '/usr/local/bin/node'
+-- workaround se necessario
+--vim.g.coc_node_path = '/usr/local/bin/node'
 
 -- ========================================================================== --
 -- 1. PLUGINS (Vim-Plug)
@@ -101,9 +102,7 @@ require('gitsigns').setup({
 })
 
 -- Which-key (mostra atalhos)
-require('which-key').setup({
-  triggers = {"<leader>"},
-})
+require('which-key').setup()
 
 -- Lualine (barra de status)
 require('lualine').setup({
@@ -301,13 +300,13 @@ local keymap = vim.keymap.set
 vim.g.mapleader = "\\"
 
 keymap('n', '<C-a>', ':NvimTreeToggle<CR>')
-keymap('n', '<leader>d', ':bp | bd #<CR>', { silent = true })
 keymap('n', '<C-h>', '<C-w>h')
 keymap('n', '<C-j>', '<C-w>j')
 keymap('n', '<C-k>', '<C-w>k')
 keymap('n', '<C-l>', '<C-w>l')
 keymap('n', '<M-Right>', ':BufferLineCycleNext<CR>')
 keymap('n', '<M-Left>', ':BufferLineCyclePrev<CR>')
+keymap('n', '<M-d>', ':bp | bd #<CR>', { silent = true })
 keymap('n', '<leader>ff', ':Telescope find_files<CR>')
 keymap('n', '<leader>fg', ':Telescope live_grep<CR>')
 
