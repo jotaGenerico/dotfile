@@ -1,0 +1,9 @@
+{
+  "suggest.enable": true,
+  "suggest.autoTrigger": "none",
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+
+  "diagnostic.virtualText": false,
+  "inlayHint.enable": false
+}
