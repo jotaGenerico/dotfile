@@ -104,9 +104,7 @@ require('gitsigns').setup({
 })
 
 -- Which-key (mostra atalhos)
-require('which-key').setup({
-  triggers = {"<leader>"},
-})
+require('which-key').setup()
 
 -- Lualine (barra de status)
 require('lualine').setup({
@@ -118,7 +116,21 @@ require('lualine').setup({
   },
 })
 
--- Bufferline (abas/buffers)
+-- Definição de cores para Bufferline (baseado no jotan.lua)
+local colors = {
+    bg_bar      = "NONE",
+    bg_active   = "#2a2a2a", -- Cinza grafite (Aba atual)
+    bg_inactive = "#111111", -- Escuro (Abas em background)
+    fg_text     = "#ffffff", -- Texto branco
+    yellow      = "#ffff00", -- Amarelo
+    red         = "#ff0000", -- Vermelho
+    -- Cores dos Modos
+    normal      = "#5454ff", -- Roxo
+    insert      = "#ffff00", -- Amarelo
+    visual      = "#58FF1E", -- Verde
+}
+
+-- Bufferline (abas/buffers) - versão melhorada
 require('bufferline').setup({
   options = {
     mode = 'buffers',
@@ -126,20 +138,10 @@ require('bufferline').setup({
     close_command = 'bdelete! %d',
     right_mouse_command = 'bdelete! %d',
     left_mouse_command = 'buffer %d',
-    indicator = {
-      style = 'icon',
-      icon = '▎',
-    },
-    buffer_close_icon = '󰅖',
-    modified_icon = '●',
-    close_icon = '',
-    left_trunc_marker = '',
-    right_trunc_marker = '',
+    
+    modified_icon = '✱',
     diagnostics = 'coc',
-    diagnostics_indicator = function(count, level)
-      local icon = level:match("error") and " " or " "
-      return " " .. icon .. count
-    end,
+    
     offsets = {
       {
         filetype = 'NvimTree',
@@ -150,14 +152,49 @@ require('bufferline').setup({
     },
     separator_style = 'slant',
     show_buffer_icons = true,
-    show_buffer_close_icons = true,
+    show_buffer_close_icons = false,
     show_close_icon = false,
-    show_tab_indicators = true,
+    show_tab_indicators = false,
     persist_buffer_sort = true,
-    enforce_regular_tabs = false,
     always_show_bufferline = true,
   },
+  highlights = {
+    fill = { bg = colors.bg_bar },
+    background = { fg = colors.fg_text, bg = colors.bg_inactive },
+    buffer_selected = { fg = colors.fg_text, bg = colors.bg_active, bold = true },
+
+    -- Erros apenas mudam a cor
+    error = { fg = colors.red, bg = colors.bg_inactive },
+    error_selected = { fg = colors.red, bg = colors.bg_active },
+    warning = { fg = colors.yellow, bg = colors.bg_inactive },
+    warning_selected = { fg = colors.yellow, bg = colors.bg_active },
+
+    modified = { fg = colors.yellow, bg = colors.bg_inactive },
+    modified_selected = { fg = colors.yellow, bg = colors.bg_active },
+
+    -- Separadores dinâmicos
+    separator = { fg = colors.normal, bg = colors.bg_inactive },
+    separator_selected = { fg = colors.normal, bg = colors.bg_active },
+    separator_visible = { fg = colors.normal, bg = colors.bg_inactive },
+  },
 })
+
+-- Mudança de cor dos separadores por modo
+local function update_bufferline_mode_colors()
+  local mode = vim.fn.mode()
+  local mode_color = colors.normal
+  if mode == 'i' then mode_color = colors.insert
+  elseif mode:match('[vV\22]') then mode_color = colors.visual
+  end
+
+  local groups = { "BufferLineSeparator", "BufferLineSeparatorSelected", "BufferLineSeparatorVisible" }
+  for _, group in ipairs(groups) do
+    local bg = (group == "BufferLineSeparatorSelected") and colors.bg_active or colors.bg_inactive
+    vim.api.nvim_set_hl(0, group, { fg = mode_color, bg = bg })
+  end
+end
+
+vim.api.nvim_create_autocmd({ "ModeChanged", "VimEnter" }, { callback = update_bufferline_mode_colors })
 
 -- Nvim-tree (file explorer)
 require('nvim-tree').setup({
@@ -170,7 +207,7 @@ require('nvim-tree').setup({
     update_root = true,
   },
   view = {
-    width = 25,
+    width = 20,
     side = 'left',
   },
   renderer = {
@@ -190,7 +227,7 @@ require('nvim-tree').setup({
   },
 })
 
--- CCC começa DESLIGADO
+-- CoC começa DESLIGADO
 vim.g.coc_enabled = false
 vim.g.coc_snippet_disable = 1
 vim.g.coc_snippet_next = ''
@@ -254,13 +291,12 @@ opt.tabstop = 4
 opt.termguicolors = true
 opt.updatetime = 300
 
--- INVISIVEIS
+-- INVISÍVEIS
 opt.list = true
 opt.listchars = {
   tab = '→ ',
   trail = '·',
 }
-
 
 -- ========================================================================== --
 -- 4. TEMA E TRANSPARÊNCIA
@@ -303,28 +339,30 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 local keymap = vim.keymap.set
 vim.g.mapleader = "\\"
 
+-- Navegação
 keymap('n', '<C-a>', ':NvimTreeToggle<CR>')
-keymap('n', '<leader>d', ':bp | bd #<CR>', { silent = true })
 keymap('n', '<C-h>', '<C-w>h')
 keymap('n', '<C-j>', '<C-w>j')
 keymap('n', '<C-k>', '<C-w>k')
 keymap('n', '<C-l>', '<C-w>l')
+
+-- Buffers
 keymap('n', '<M-Right>', ':BufferLineCycleNext<CR>')
 keymap('n', '<M-Left>', ':BufferLineCyclePrev<CR>')
+keymap('n', '<M-d>', ':bp | bd #<CR>', { silent = true })
+
+-- Telescope
 keymap('n', '<leader>ff', ':Telescope find_files<CR>')
 keymap('n', '<leader>fg', ':Telescope live_grep<CR>')
 
--- Atalho para ligar/desligar Copilot/Coc
+-- Toggle Copilot/CoC
 keymap('n', '<leader>tc', ':lua toggle_copilot()<CR>', { silent = true })
 keymap('n', '<leader>tl', ':lua toggle_coc()<CR>', { silent = true })
 keymap('n', '<leader>ta', ':lua toggle_code_suggestions()<CR>', { silent = true })
 
-
--- Comentar e Descomentar estilo VS Code (Ctrl + /)
--- No modo normal: comenta a linha
+-- Comentar estilo VS Code (Ctrl + /)
 keymap('n', '<C-_>', 'gcc', { remap = true, silent = true })
 keymap('n', '<C-/>', 'gcc', { remap = true, silent = true })
--- No modo visual: comenta o bloco selecionado
 keymap('v', '<C-_>', 'gc', { remap = true, silent = true })
 keymap('v', '<C-/>', 'gc', { remap = true, silent = true })
 
@@ -367,8 +405,8 @@ vim.api.nvim_set_keymap(
 -- Desativa inlay hints (poluição visual e anti-42)
 vim.g.coc_enable_inlay_hint = 0
 
-
 -- ========================================================================== --
 -- 7. NORMA 42 (HEADER)
 -- ========================================================================== --
 keymap('n', '<F1>', ':Stdheader<CR>', { silent = true })
+
