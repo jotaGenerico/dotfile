@@ -1,0 +1,240 @@
+[ColorPicker]
+HexLengths=3,6,8,9,12
+NamedColors=false
+PreviewAfterColor=true
+
+[ColoredBrackets]
+color1=#1275ef
+color2=#f83c1f
+color3=#9dba1e
+color4=#e219e2
+color5=#37d21c
+
+[FileDialogSize]
+1280x720 screen: Height=683
+1280x720 screen: Width=1125
+
+[General]
+Allow Tab Scrolling=true
+Auto Hide Tabs=false
+Close After Last=false
+Close documents with window=true
+Days Meta Infos=30
+Diff Show Style=0
+Elide Tab Text=false
+Expand Tabs=false
+Icon size for left and right sidebar buttons=20
+Modified Notification=false
+Mouse back button action=0
+Mouse forward button action=0
+Open New Tab To The Right Of Current=false
+Output History Limit=100
+Recent File List Entry Count=10
+Restore Window Configuration=true
+SDI Mode=false
+Save Meta Infos=true
+Show Full Path in Title=true
+Show Menu Bar=true
+Show Status Bar=true
+Show Symbol In Navigation Bar=true
+Show Tab Bar=true
+Show Tabs Close Button=true
+Show Url Nav Bar=true
+Show output view for message type=1
+Show text for left and right sidebar=false
+Show welcome view for new window=false
+Startup Session=last
+Stash new unsaved files=true
+Stash unsaved file changes=false
+Sync section size with tab positions=false
+Tab Double Click New Document=false
+Tab Middle Click Close Document=true
+Tabbar Tab Limit=0
+
+[KFileDialog Settings]
+Recent Files[$e]=vimJ.theme,file:$HOME/.local/share/org.kde.syntax-highlighting/themes/perfeito.theme,file:$HOME/Musicas/GitHub Dark.theme,file:$HOME/.vim/plugged/vim-airline-themes/autoload/airline/themes/jota.vim
+Recent URLs[$e]=file:$HOME/.vim/plugged/vim-airline-themes/autoload/airline/themes/,file:$HOME/Musicas/,file:$HOME/.local/share/org.kde.syntax-highlighting/themes/
+detailViewIconSize=16
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=.bk
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=true
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=true
+Remove Spaces=1
+ReplaceTabsDyn=false
+Show Spaces=1
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=false
+Color Theme=jota
+Font=Hack,12,-1,5,50,0,0,0,0,0
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=true
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=1
+Bracket Match Preview=true
+Chars To Enclose Selection=<>(){}[]'"
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Enable Tab completion=false
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Max Clipboard History Entries=20
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=40
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=268
+Shoe Line Ending Type in Statusbar=false
+Show Documentation With Completion=true
+Show File Encoding=true
+Show Focus Frame Around Editor=false
+Show Folding Icons On Hover Only=true
+Show Line Count=true
+Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
+Show Word Count=false
+Smart Copy Cut=true
+Statusbar Line Column Compact Mode=true
+Text Drag And Drop=false
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=SUA_CHAVE_AQUI,,shoppingList,directoryFiles,jose-cad,94585-8631,bolegari,91173-7022,double,651eff,5a08ff,7300ff,5500ff,Charmander,pos_match,pos_buf,arr,argv,argc,$(SRCS_DIR),s_media,s_todos,0,int,quem somos,CONEX AR,ft_printf,isspace,GNL_SIZE,PF_SIZE,*arg,*input,ft_dispatch_specifier,ft_print_literal_char,ft_print_formatted,teste2.txt,teste1.txt,flag_minus,storage[fd],.bonus_done,pos,vetor,dentro,get_word,espaco,count_words,message_usage,message_error_range,bfs,',imersaoAlura,c,b,a,i,#,#003b4f,#bd93f9,nptr,signal,80c794,f08b3d,fad462,5a8667,c58af9,target,base,needle,haystack,#DA70D6,#D8BFD8,#8B008B,#4B0082,#E6E6FA,#E0FFFF,#FFD700,#FF7F50,#4682B4,#B0C4DE,#FFA500,#98FB98,#4169E1,#C678DD,jota,#58FF1E,#5454ff,#6814f9,#55ff00,58FF1E,de1cdb,"#006d9f,jerm
+Search History=GROQ_API_KEY,shoopingList,directoryName,sin_addr,bolegari,kgagliar,911737022,91173-7022,+55 (11) 91173-7022,jgiancol,91173-7002,gru,35,vendas,jota,heran,TEC,return,decodeChunkedBody,catch,new,client,if (requestComplete),header,*,&,const std::string,scriptFile,retu,length,le,float,TextSelection,5a08ff,7300ff,7300f,5500ff,SelectionTextColor,bd93f9,3d2b6b,rat,Rattata,rgb_bonus.c,inc,achado,buffer_pos,code-block,Verificação de Memory Leaks:,Thread de Monitoramento:, [cite: 50], [cite: 49], [cite: 48], [cite: 47], [cite: 46], [cite: 45],vet,Proteção: morte vs comer simultaneamente,// utils_bonus.c,Semáforo único representando ,Testes Obrigatórios (Evaluation Sheet),// simulation_bonus.c ,// monitor.c - check_death(),// init.c - init_mutexes(), // ✅ Inicializa UM mutex para CADA garfo int i = 0; while (i < ,// init.c - init_table(),// simulation.c - create_threads(),alvo_len,keymap('n'\\, '<leader>d'\\, ':bp | bd #<CR>'\\, { silent = true })\n,vim.g.coc_enabled = false,vim.g.mapleader,vim.g.mapleader = "\\\\\\\\"\n,whichvim.g.mapleader = "\\\\\\\\",which,vim.g.coc_enabled,vim.g.coc,vimg.g.coc,vim.Coc,vim.g.mapleader = ",vim.g.coc_snippet_next = '',cite,main,read,get_time_since_meal,av,ac,system,_bonus,$(BONUS_DIR),BONUS_,600,bonus,exec_builtin_child,2>,void\t\t\t\t\tsetup_signals(void);,s_media_corrigida,soma,scm_prompt_info,false,bool,free
+
+[Konsole]
+AutoSyncronize=true
+KonsoleEscKeyBehaviour=false
+KonsoleEscKeyExceptions=vi,vim,nvim,git
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
+[MainWindow]
+1280x720 screen: Height=691
+1280x720 screen: Width=635
+1280x720 screen: Window-Maximized=true
+1920x1080 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAABNcAAAKeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar hamburgerBar]
+ToolButtonStyle=TextOnly
+
+[filebrowser]
+toolbar actions=up,home,sync_dir,configure
+
+[filetree]
+editShade=4,57,83
+listMode=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=81,49,95
+
+[lspclient]
+AllowedServerCommandLines=
+AutoHover=true
+AutoImport=true
+BlockedServerCommandLines=
+CompletionDocumentation=true
+CompletionParens=true
+Diagnostics=true
+FormatOnSave=false
+HighlightGoto=true
+IncrementalSync=false
+InlayHints=false
+Messages=true
+ReferencesDeclaration=true
+SemanticHighlighting=true
+ServerConfiguration=
+SignatureHelp=true
+SymbolDetails=false
+SymbolExpand=true
+SymbolSort=false
+SymbolTree=true
+TypeFormatting=false
+
+[project]
+autorepository=
+gitStatusDoubleClick=3
+gitStatusSingleClick=0
+index=true
+indexDirectory=
+multiProjectCompletion=false
+multiProjectGoto=false
+restoreProjectsForSessions=true

@@ -154,12 +154,15 @@ source "$OSH"/oh-my-bash.sh
 
 
 # meus alias
+alias wifi_r='sudo modprobe -r wl && sudo modprobe wl'
 export PATH=$PATH:/home/jota/Desktop/dev/42sp/norminette/bin
 alias moedor=norminette
 alias no_main='norminette $(find . \( -name "*.c" -o -name "*.h" \) ! -name "main.c")'
 
 alias gww='gcc -Wall -Wextra -Werror'
 alias ft='gcc -Wall -Wextra -Werror -o a.out main.c -L. -lft'
+
+alias liberar='set +o noclobber'
 
 # Aliases para manter as configurações separadas
 export PATH="$HOME/bin:$PATH"
@@ -176,7 +179,6 @@ pyenv() {
 }
 
 alias francinette=/home/jota/francinette/tester.sh
-
 alias paco=/home/jota/francinette/tester.sh
 
 # NVM Lazy Load (Abre o terminal instantaneamente)
@@ -190,3 +192,20 @@ node() { nvm ls >/dev/null && node "$@"; }
 npm() { nvm ls >/dev/null && npm "$@"; }
 
 export PATH="$HOME/.local/bin:$PATH"
+
+# snipet exercism
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  source ~/.config/exercism/exercism_completion.bash
+fi
+
+# .NET SDK Local
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/jota/.local/bin:$PATH"
+
+# gemini cli
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

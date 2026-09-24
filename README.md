@@ -1,5 +1,5 @@
 
-# 💻 Dotfiles: Bash, Vim & Neovim
+# 💻 Dotfiles: Bash, Kate, Vim & Neovim
 
 Repositório de configurações para produtividade e ambiente de desenvolvimento onde quer que eu va (hu3).
 

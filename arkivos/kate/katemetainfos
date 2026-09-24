@@ -1,0 +1,1702 @@
+Bookmarks=
+Checksum=2df1b33db27fbfb64281a2e3931d460ea5a0ed72
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,40,36.488
+URL=
+
+[file:///home/jota/.bashrc]
+Bookmarks=
+Checksum=bd55fd75f6bf54dc32709171d1257756452ab548
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2026,9,10,3,22,42.516
+URL=file:///home/jota/.bashrc
+
+[file:///home/jota/.claude/settings.json]
+Bookmarks=
+Checksum=451a6708f0fc67948e7b27c2997def9ba7e69d30
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,6,15,46,44.823
+URL=file:///home/jota/.claude/settings.json
+
+[file:///home/jota/.config/akregatorrc]
+Bookmarks=
+Checksum=5cf5a54906c43b434e8e01cfdb74cfb4d07b5aa0
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,24,16,46,56.127
+URL=file:///home/jota/.config/akregatorrc
+
+[file:///home/jota/.config/katerc]
+Bookmarks=
+Checksum=0da0dfaa2ccabcab809ba3ff26e0014351065a0e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,24,16,48,48.662
+URL=file:///home/jota/.config/katerc
+
+[file:///home/jota/.config/opencode/config.json]
+Bookmarks=
+Checksum=7673f276844ee50c2ec1ca3321e7e9958d2d2ec3
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,9,18,28,12.036
+URL=file:///home/jota/.config/opencode/config.json
+
+[file:///home/jota/.litellm_config.yaml]
+Bookmarks=
+Checksum=ae9759281164965d1b77bb8aba845b73c13077ec
+Encoding=UTF-8
+Highlighting=YAML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=YAML
+Mode Set By User=false
+Time=2026,8,27,16,8,23.866
+URL=file:///home/jota/.litellm_config.yaml
+
+[file:///home/jota/Desktop/arkivos/linhas.c]
+Bookmarks=
+Checksum=71c470e344945a4f88ec608f2bf4b52a342c017a
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,23,15,2,7.123
+URL=file:///home/jota/Desktop/arkivos/linhas.c
+
+[file:///home/jota/Desktop/arkivos/merged.c]
+Bookmarks=
+Checksum=daca606ac225def48412b6ad0484dbd270bedd4d
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,23,9,22,23.105
+URL=file:///home/jota/Desktop/arkivos/merged.c
+
+[file:///home/jota/Desktop/arkivos/racker.c]
+Bookmarks=
+Checksum=1927dbeeae390a756aa2b9aca33c49a990b59880
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,23,9,22,23.105
+URL=file:///home/jota/Desktop/arkivos/racker.c
+
+[file:///home/jota/Desktop/conceitos_confusos.txt]
+Bookmarks=
+Checksum=e725fed68830358b4539815faf8887d08d6375af
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,23,9,17,23.858
+URL=file:///home/jota/Desktop/conceitos_confusos.txt
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/regua.html]
+Bookmarks=
+Checksum=2c15a37a386888b3beca779dadb8e755d30c73ef
+Encoding=UTF-8
+Highlighting=HTML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=HTML
+Mode Set By User=false
+Time=2026,8,28,3,34,11.009
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/regua.html
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/uploads/defesa.txt]
+Bookmarks=
+Checksum=fd25088d402525fcfa8d2ff7e88dca5c2949c35a
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,28,3,36,2.222
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/uploads/defesa.txt
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/uploads/test.txt]
+Bookmarks=
+Checksum=082b3465b6ac4b857f930b655c1cdb398aa6c465
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,28,3,36,6.98
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/final/www/uploads/test.txt
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/includes/CgiHandler.hpp]
+Bookmarks=
+Checksum=ce64be3410eda782534d67b17d96ed55afcbf7b6
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/includes/CgiHandler.hpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/includes/Client.hpp]
+Bookmarks=
+Checksum=b5101c89f51fabf6276876004680ef72b05b111e
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/includes/Client.hpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/includes/HttpResponse.hpp]
+Bookmarks=
+Checksum=df524902c20bac97f6283cfd22c73c39d2b65ed4
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/includes/HttpResponse.hpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/includes/SocketUtils.hpp]
+Bookmarks=
+Checksum=b0084c9083b0f490fae09a1d94fb89868c3d246b
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/includes/SocketUtils.hpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/http/CgiHandler.cpp]
+Bookmarks=
+Checksum=763ba0b32f247c005f8e2d73877348c91d6e0b2e
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,34,11.009
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/http/CgiHandler.cpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/http/HttpResponse.cpp]
+Bookmarks=
+Checksum=1e59cb180096fa18255185a1c95b1ee75d57f2f5
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/http/HttpResponse.cpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/Client.cpp]
+Bookmarks=
+Checksum=295c83340b879c190e4f198ed0100181f281290a
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,34,11.009
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/Client.cpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/SocketUtils.cpp]
+Bookmarks=
+Checksum=9dd2a9fc09a13f662a90ff021dca840fd7c81742
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/SocketUtils.cpp
+
+[file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/WebServ.cpp]
+Bookmarks=
+Checksum=cb4399da890168d4b688c45aa785ade857b4df2e
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,8,28,3,1,11.349
+URL=file:///home/jota/Desktop/dev/42sp/05_webserv/srcs/server/WebServ.cpp
+
+[file:///home/jota/Desktop/dev/42sp/common_core/05_webserv/YoupiBanane/Yeah/not_happy.bad_extension]
+Bookmarks=
+Checksum=05df43fad2b355d845f199dd3cd0b15f484c1719
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,27,20,22,34.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/05_webserv/YoupiBanane/Yeah/not_happy.bad_extension
+
+[file:///home/jota/Desktop/dev/42sp/common_core/05_webserv/webserv.conf]
+Bookmarks=
+Checksum=46d2653cacf9ba7cffc9ad9a8b835a478e924d89
+Encoding=UTF-8
+Highlighting=TOML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=TOML
+Mode Set By User=false
+Time=2026,8,27,19,9,24.176
+URL=file:///home/jota/Desktop/dev/42sp/common_core/05_webserv/webserv.conf
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/repeat_alpha.c]
+Bookmarks=
+Checksum=197b6a0d92fae6fa44e6cec23b8440d8d0e138af
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,0,16,20.072
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/repeat_alpha.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rot_13.c]
+Bookmarks=
+Checksum=c5f44afa8993dd05121b9d292466ab124a7d25f2
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,0,16,20.072
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rot_13.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rotone.c]
+Bookmarks=
+Checksum=f7e4dc070401483fa0d118d8e8ab0e789913a76c
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,0,16,20.072
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rotone.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rstr_capitalizer.c]
+Bookmarks=
+Checksum=6ccfbe82da6be0857b656a518580ad679d71bfd9
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,0,16,20.072
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/rstr_capitalizer.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/ulstr.c]
+Bookmarks=
+Checksum=6196bd7fd352aeed69e18ab3079e7421e8c2b7da
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,0,16,20.072
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo1/ulstr.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo2/epur.c]
+Bookmarks=
+Checksum=83a8eb8cbbb7dd2db0dc3709fad20c22d55babff
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,7,44.452
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo2/epur.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo2/expand_str.c]
+Bookmarks=
+Checksum=c399c96907e603a14c3db0e5b80a1a0ba2b800fc
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,14,54,48.636
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo2/expand_str.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo5/tab_mult.c]
+Bookmarks=
+Checksum=98b83dfcea46283bd382609994cc60f8df04e6c9
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupo5/tab_mult.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupos.txt]
+Bookmarks=
+Checksum=a2831b00e2e1d1e8893a2dc39bd08e1c126fb435
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,8,0,10,16.464
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/grupos.txt
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/alpha_mirror.c]
+Bookmarks=
+Checksum=c7eafaeb99ab356c0833122a57d6e3a2b97e6b7b
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/alpha_mirror.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/do_op.c]
+Bookmarks=
+Checksum=2eae59e164038b6a5bf75137a1c9e2ec999f72da
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,48,24.831
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/do_op.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/max.c]
+Bookmarks=
+Checksum=4a2bb02b44175d09004fc77dd553dd40863cf456
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/max.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/print_bit.c]
+Bookmarks=
+Checksum=9cb810849f4bd22646c0206dd08b3599612ce1b8
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/print_bit.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/reverse_bit.c]
+Bookmarks=
+Checksum=60615ad873a367e7da4c657f2d541e7c027a973c
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/reverse_bit.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/strcmp.c]
+Bookmarks=
+Checksum=4b7418b720807d67bf7a453b52f7089ffa8e7b7e
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/strcmp.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/swap_bit.c]
+Bookmarks=
+Checksum=ce2253d939d2afe4637578b1b680b25a323059a4
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,14,45.974
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv2/swap_bit.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv3/atoi_base.c]
+Bookmarks=
+Checksum=6f91dc97f6408ed908c834c9824b4cfd19b795c4
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,9,1,13,31.324
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv3/atoi_base.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv3/hidenp.c]
+Bookmarks=
+Checksum=f650241c5e5d39a6b9f6a8e74b4b534040220411
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,9,1,13,31.324
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv3/hidenp.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/check_mate.c]
+Bookmarks=
+Checksum=923a107c6dd4470714b448f0d392e621448a6d1b
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,6,16,46,2.717
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/check_mate.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/for_each/for_each.c]
+Bookmarks=
+Checksum=99c21ce6636e5c2973bd8ea4c487e8308d20fcfc
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,8,1,7,44.452
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/for_each/for_each.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/for_each/ft_list.h]
+Bookmarks=
+Checksum=7e302331520fffb0599d3e9a38a8c3d1f2e06ce7
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2026,9,8,0,10,16.464
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/for_each/ft_list.h
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/remove_if/list_remove_if.c]
+Bookmarks=
+Checksum=5cf00a099760e7b5b6174a1a2ad6406bb56b8c1f
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,6,11,36,22.237
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/remove_if/list_remove_if.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/split1.c]
+Bookmarks=
+Checksum=52a43cdc6bbadf0306f5c57fdbfbbd24f96aa69d
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,6,14,31,30.809
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/split1.c
+
+[file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/split2.c]
+Bookmarks=
+Checksum=aa58f0dbb0f7caca3fee310b015afaf5316be6f8
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,9,6,14,31,30.809
+URL=file:///home/jota/Desktop/dev/42sp/common_core/exams/rank_2/lv4/split2.c
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/06_transcendence/.env.example]
+Bookmarks=
+Checksum=bdb41de633f47ca349d332b823bbd7f4eeb0a085
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,6,0,38,16.971
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/06_transcendence/.env.example
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/06_transcendence/files/Dockerfile]
+Bookmarks=
+Checksum=3e5000ffdf56abba1b435d7a6366bb5e78f3e91d
+Encoding=UTF-8
+Highlighting=Dockerfile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Dockerfile
+Mode Set By User=false
+Time=2026,9,6,0,38,16.971
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/06_transcendence/files/Dockerfile
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/c_sharp/classes/Program.cs]
+Bookmarks=
+Checksum=83e3d7dea97f175eb6455cdd7fcc263a6ed0fdf7
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,30,11,22,51.611
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/c_sharp/classes/Program.cs
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/c_sharp/prompt.txt]
+Bookmarks=
+Checksum=5adbb576fcfbfe3fd491c180be262b5b1fbd393d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,31,9,57,53.452
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/c_sharp/prompt.txt
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/ia/ciclo.c]
+Bookmarks=
+Checksum=259b72c150642adf1c567a4e992830fb193b499e
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2026,8,26,13,7,1.9340000000000002
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/ia/ciclo.c
+
+[file:///home/jota/Desktop/dev/42sp/homeWork/ia/ciclo.txt]
+Bookmarks=
+Checksum=3b938603cc59c8bdf971a7573178b2dc5fd3f0b0
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,26,13,7,1.9340000000000002
+URL=file:///home/jota/Desktop/dev/42sp/homeWork/ia/ciclo.txt
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/.env]
+Bookmarks=
+Checksum=5bf4199dbe6b17f8a040cb74f412b3b6fe383578
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/.env
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/.env.example]
+Bookmarks=
+Checksum=bdb41de633f47ca349d332b823bbd7f4eeb0a085
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/.env.example
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/.gitignore]
+Bookmarks=
+Checksum=3a8b0a3422b41517328cb7026747535b25617448
+Encoding=UTF-8
+Highlighting=Git Ignore
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Git Ignore
+Mode Set By User=false
+Time=2026,9,6,12,14,13.027
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/.gitignore
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Backend.csproj]
+Bookmarks=
+Checksum=bf0663f1fa2867b533ab7aceb11634b46bf8b6b7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,6,11,59,45.084
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Backend.csproj
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Controllers/AuthController.cs]
+Bookmarks=
+Checksum=2a992484142ae78bc6477533e6ccab1482f6aa44
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,9,2,2,36.71
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Controllers/AuthController.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/DTOs/AuthDtos.cs]
+Bookmarks=
+Checksum=5e79587db42275f540741dc0b7633865f1e3c6b8
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,9,2,54,29.735
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/DTOs/AuthDtos.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Data/AppDbContext.cs]
+Bookmarks=
+Checksum=2d488e27f6deae191c00c86ec044f6abf6ad9972
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Data/AppDbContext.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Data/AppDbContextFactory.cs]
+Bookmarks=
+Checksum=8a46bec19086eeda1483b946669e119433c0db38
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Data/AppDbContextFactory.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Dockerfile]
+Bookmarks=
+Checksum=d389bf5dd396265ec5914e7c3fb56827e7e03ade
+Encoding=UTF-8
+Highlighting=Dockerfile
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Dockerfile
+Mode Set By User=false
+Time=2026,9,6,12,14,13.027
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Dockerfile
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Alerta.cs]
+Bookmarks=
+Checksum=d9a91d1a65938c48b30eef657a030cffa884a4dd
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Alerta.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Arquivo.cs]
+Bookmarks=
+Checksum=6a15e07ef835274f32266b0c663683e3320890a3
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Arquivo.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Carro.cs]
+Bookmarks=
+Checksum=29a48b93152c4f0c3038cfbc00560aaa135c7212
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Carro.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/HistoricoKm.cs]
+Bookmarks=
+Checksum=02e3fe0502ec52dd771608951030da7a77a595c6
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/HistoricoKm.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Motorista.cs]
+Bookmarks=
+Checksum=8a14a77b3a465226afaa5650390e1ed53bbd4e49
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Motorista.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Organizacao.cs]
+Bookmarks=
+Checksum=4eda087c5af0de3bc845d799843e930157c7b743
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Organizacao.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Usuario.cs]
+Bookmarks=
+Checksum=664f1f912b19c9b538165792d766ec9f18af791d
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Models/Usuario.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Program.cs]
+Bookmarks=
+Checksum=4ff05ecc6c15c67a70a2a09da734e439993c71f1
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,9,2,54,29.735
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Program.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Properties/launchSettings.json]
+Bookmarks=
+Checksum=8156634912b088f3aeedec22dc3e378cb900c615
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,9,2,54,29.735
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Properties/launchSettings.json
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/backend/Services/TokenService.cs]
+Bookmarks=
+Checksum=985059320dec5b315bdf5cbed173bae451a9acde
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,9,2,54,29.735
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/backend/Services/TokenService.cs
+
+[file:///home/jota/Desktop/dev/42sp/transcendence/docker-compose.yml]
+Bookmarks=
+Checksum=5911b9e59b711b6749f1a371581467eb8e43ccd2
+Encoding=UTF-8
+Highlighting=YAML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=YAML
+Mode Set By User=false
+Time=2026,9,7,1,26,24.159
+URL=file:///home/jota/Desktop/dev/42sp/transcendence/docker-compose.yml
+
+[file:///home/jota/Desktop/dev/cristina/prompt.txt]
+Bookmarks=
+Checksum=205f7fbcc29a05f22646464ad84f9a3be750c367
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,13,2,3,12.928
+URL=file:///home/jota/Desktop/dev/cristina/prompt.txt
+
+[file:///home/jota/Desktop/dev/dio/dotnet/scripts_sql/1 - Tabela Clientes.sql]
+Bookmarks=
+Checksum=579458b1d230905ed1fcffcb8c98a9e7c0bc7d1d
+Encoding=ISO-8859-15
+Highlighting=SQL
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=SQL
+Mode Set By User=false
+Time=2026,8,31,15,44,42.904
+URL=file:///home/jota/Desktop/dev/dio/dotnet/scripts_sql/1 - Tabela Clientes.sql
+
+[file:///home/jota/Desktop/dev/dio/dotnet/scripts_sql/2 - Tabela Produtos.sql]
+Bookmarks=
+Checksum=b6409d350365137ec8042275a45f4871c7a08a09
+Encoding=UTF-8
+Highlighting=SQL
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=SQL
+Mode Set By User=false
+Time=2026,8,31,15,44,42.904
+URL=file:///home/jota/Desktop/dev/dio/dotnet/scripts_sql/2 - Tabela Produtos.sql
+
+[file:///home/jota/Desktop/dev/dio/dotnet/sql.txt]
+Bookmarks=
+Checksum=bc3397b44fc00f18457a3c9d4a0c36b99d158038
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,31,9,51,14.581
+URL=file:///home/jota/Desktop/dev/dio/dotnet/sql.txt
+
+[file:///home/jota/Desktop/dev/dio_projetos/.gitignore]
+Bookmarks=
+Checksum=104b54414e4dbb1fd2e0f6ce5bd8c1a9b006b778
+Encoding=UTF-8
+Highlighting=Git Ignore
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Git Ignore
+Mode Set By User=false
+Time=2026,9,21,0,7,37.256
+URL=file:///home/jota/Desktop/dev/dio_projetos/.gitignore
+
+[file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Console/Program.cs]
+Bookmarks=
+Checksum=3751555cbd32d09340c8cb7b75ce8311c4330054
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,17,1,35,39.285
+URL=file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Console/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Console/TestesUnitarios.Desafio.Console.csproj]
+Bookmarks=
+Checksum=74abf5c9766499f4fd79d4a9398f619d39c2e45e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,17,1,8,55.143
+URL=file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Console/TestesUnitarios.Desafio.Console.csproj
+
+[file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Tests/Usings.cs]
+Bookmarks=
+Checksum=8c927eb747a6a304db265e6753aee6c47504f604
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,17,1,34,25.874
+URL=file:///home/jota/Desktop/dev/dio_projetos/aaa/TestesUnitarios.Desafio.Tests/Usings.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/agenda/Context/AgendaContext.cs]
+Bookmarks=
+Checksum=18feb39a6849ff971589a468d202f4dbf9bd47c8
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,40,11.201
+URL=file:///home/jota/Desktop/dev/dio_projetos/agenda/Context/AgendaContext.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/agenda/Controllers/ContatoController.cs]
+Bookmarks=
+Checksum=a21d903b99b6cfc2ff90b260a91a8c0873a7a02b
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,41,18.569
+URL=file:///home/jota/Desktop/dev/dio_projetos/agenda/Controllers/ContatoController.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/agenda/Program.cs]
+Bookmarks=
+Checksum=de97b45254a7fd364854d9a5400261238696617f
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,41,18.569
+URL=file:///home/jota/Desktop/dev/dio_projetos/agenda/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/Models/EnumStatusTarefa.cs]
+Bookmarks=
+Checksum=90fb7a8d618c078e9faeec6950ac8fe856c69524
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,43,7.952
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/Models/EnumStatusTarefa.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/Models/Tarefa.cs]
+Bookmarks=
+Checksum=c2e880fc9e08d4e1c9f3fe0d87802075c7d202ef
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,43,13.674
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/Models/Tarefa.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/TrilhaApiDesafio.csproj]
+Bookmarks=
+Checksum=ab338f7ccaccd77cbcbe15d0a226bb52d7e29402
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,8,2,7,1.264
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/TrilhaApiDesafio.csproj
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Models/Contato.cs]
+Bookmarks=
+Checksum=074e3c565c0d66d318df40e08e4e88c07fb75fc5
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,38,35.56
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Models/Contato.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Models/Tarefa.cs]
+Bookmarks=
+Checksum=18feb39a6849ff971589a468d202f4dbf9bd47c8
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,38,35.56
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Models/Tarefa.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Program.cs]
+Bookmarks=
+Checksum=de97b45254a7fd364854d9a5400261238696617f
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,38,35.56
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/appsettings.json]
+Bookmarks=
+Checksum=782c58e369264f8d0c4215e13d5959b2e491cb7d
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,8,2,38,35.56
+URL=file:///home/jota/Desktop/dev/dio_projetos/c%23_agenda/agenda/appsettings.json
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Context/RHContext.cs]
+Bookmarks=
+Checksum=6776a6f960af1ba8a0d93dfb009a48fa63498643
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,58,12.096
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Context/RHContext.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Context/RhContext.cs]
+Bookmarks=
+Checksum=73a4b1f7671674fb305c1f646ebd79fd366ae5f2
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,22,14,18.282
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Context/RhContext.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Controllers/FuncionarioController.cs]
+Bookmarks=
+Checksum=830a44b2146adc3c2f9c129a3679cf7150bfa00a
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,15,1,48,50.502
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Controllers/FuncionarioController.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/Funcionario.cs]
+Bookmarks=
+Checksum=60e3756b6c9a525d4720295ff1d1ab8ea646ab29
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,58,14.917
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/Funcionario.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/FuncionarioLog.cs]
+Bookmarks=
+Checksum=4d249629036a8f34c5e9405e4cfbb1c1771e0e94
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,58,14.917
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/FuncionarioLog.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/TipoAcao.cs]
+Bookmarks=
+Checksum=93558a82d46d682cb7057dbaba76640352ebb74b
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,58,14.917
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Models/TipoAcao.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Program.cs]
+Bookmarks=
+Checksum=9ca5961c728eaa644f7d8ab1b822aa4e26e6aa5c
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,21,52,37.188
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Rh.csproj]
+Bookmarks=
+Checksum=d97be3efdcf6a47a9169e0a5d84f8b8ea29ccaa5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,14,2,33,39
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/Rh.csproj
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/appsettings.json]
+Bookmarks=
+Checksum=f41b88800a542b92c683ae154f0b48855367f85f
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,14,22,7,37.141
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/appsettings.json
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/docker-compose.yml]
+Bookmarks=
+Checksum=d513a00d02d4768b221db8764e44c29c9e8814cd
+Encoding=UTF-8
+Highlighting=YAML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=YAML
+Mode Set By User=false
+Time=2026,9,14,22,7,37.141
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/docker-compose.yml
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/trilha-net-azure-desafio/Controllers/FuncionarioController.cs]
+Bookmarks=
+Checksum=6594b3e31ad16deee94198ba18b10ef6c60e1826
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,2,40,43.124
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_azure/trilha-net-azure-desafio/Controllers/FuncionarioController.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/DesafioPOO.csproj]
+Bookmarks=
+Checksum=3a0e362ff888394ef2ebdad42524c416b7541001
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,28,15,13,58.876
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/DesafioPOO.csproj
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Imagens/diagrama.png]
+Bookmarks=
+Checksum=02d7cc732184bb3c3b4ed91aac4a1e5a36290745
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,28,15,13,44.014
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Imagens/diagrama.png
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Iphone.cs]
+Bookmarks=
+Checksum=f4fecc5f6914998de3aad984a8a325b32a4711dc
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,28,15,26,46.603
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Iphone.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Nokia.cs]
+Bookmarks=
+Checksum=94507ebf02c1783b9bb1f3ef9387fb39f43e113f
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,28,15,26,46.603
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Nokia.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Smartphone.cs]
+Bookmarks=
+Checksum=89c48aec553d2fd8827378e46a6027f1764bb024
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,28,15,26,46.603
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Models/Smartphone.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Program.cs]
+Bookmarks=
+Checksum=d862a17ea3bf3d62d8a5bd0abf05e82ec542ecf1
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,28,15,26,46.603
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_celular/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/csharp_testes/TestesUnitarios.Desafio.Tests/ValidacoesListaTests.cs]
+Bookmarks=
+Checksum=def02c5cf17882ed7c701834082f225cc5690d9b
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,17,1,9,38.851
+URL=file:///home/jota/Desktop/dev/dio_projetos/csharp_testes/TestesUnitarios.Desafio.Tests/ValidacoesListaTests.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/main.py]
+Bookmarks=
+Checksum=fdf358a0e6ec65b57335036d421ef5a849ba424c
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/main.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/concat_dados.py]
+Bookmarks=
+Checksum=e7464870f7cedf7e5af8734201204bba5afd2fbf
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/concat_dados.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/media_notas.py]
+Bookmarks=
+Checksum=837e759a9f9a32490317d0632fb8aa40a01d466f
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/media_notas.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/ope_mat.py]
+Bookmarks=
+Checksum=6f3d3eee2d237f59611f53a8e9a8ad8a0ab7a568
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/ope_mat.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/par_impar.py]
+Bookmarks=
+Checksum=bec2d671db93c7e854e0ed3df4a5bdf2051384dd
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/par_impar.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/repet_txt.py]
+Bookmarks=
+Checksum=43a429645168163f5232aaeb459c5eb04f657103
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/repet_txt.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/verif_palindromo.py]
+Bookmarks=
+Checksum=93f7fadf346c65c0ea228d9142e0036050a2eec1
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2026,9,20,22,21,25.099
+URL=file:///home/jota/Desktop/dev/dio_projetos/github/resolucoes_code/verif_palindromo.py
+
+[file:///home/jota/Desktop/dev/dio_projetos/hotel/hotel/Models/Reserva.cs]
+Bookmarks=
+Checksum=abd77db6c5c8b9088a904057ef2029312f5a6a8c
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,25,10,58,9.294
+URL=file:///home/jota/Desktop/dev/dio_projetos/hotel/hotel/Models/Reserva.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/sql_filmes/respostas.sql]
+Bookmarks=
+Checksum=5e1785f49f3c9be290c5d6f0e0c44c757ddf6f66
+Encoding=UTF-8
+Highlighting=SQL
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=SQL
+Mode Set By User=false
+Time=2026,9,2,1,3,21.771
+URL=file:///home/jota/Desktop/dev/dio_projetos/sql_filmes/respostas.sql
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/Context/OrganizadorContext.cs]
+Bookmarks=
+Checksum=54a335c8fee58f0d927754208c695c4e75553bdc
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/Context/OrganizadorContext.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/Controllers/TarefaController.cs]
+Bookmarks=
+Checksum=46e5f97dcf64c10fb68ab578be81c2197ddfdc69
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/Controllers/TarefaController.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/Models/EnumStatusTarefa.cs]
+Bookmarks=
+Checksum=7e0e8ed954550adb634fa2d63bb9feacfe5641a7
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/Models/EnumStatusTarefa.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/Models/Tarefas.cs]
+Bookmarks=
+Checksum=e4feda7c737f4d9d4ba0e2b8bd85d48a42245a7b
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/Models/Tarefas.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/Program.cs]
+Bookmarks=
+Checksum=7bf490b5ced9e9471c81d07aab8f6f450a6cf1c8
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/Program.cs
+
+[file:///home/jota/Desktop/dev/dio_projetos/tarefas/appsettings.json]
+Bookmarks=
+Checksum=208bb63ee8ab0e5c8b37589aec9f8a18004ff739
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,9,8,2,58,2.566
+URL=file:///home/jota/Desktop/dev/dio_projetos/tarefas/appsettings.json
+
+[file:///home/jota/Desktop/dev/dio_projetos/trilha-net-azure-desafio/Program.cs]
+Bookmarks=
+Checksum=8d64c12e0e3ecb85948f62bc666721435513aa8f
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,9,14,21,45,57.467
+URL=file:///home/jota/Desktop/dev/dio_projetos/trilha-net-azure-desafio/Program.cs
+
+[file:///home/jota/Desktop/dev/dotfile/arkivos/ambiente/terminal.txt]
+Bookmarks=
+Checksum=022f4d61f8bcd8fb66eb557dbd4f79c29120f170
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,24,16,41,30.429
+URL=file:///home/jota/Desktop/dev/dotfile/arkivos/ambiente/terminal.txt
+
+[file:///home/jota/Desktop/dev/exercism/csharp/LICENSE]
+Bookmarks=
+Checksum=986629c3341ac0adeea445064c8c384734d87a09
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,25,18,28,41.075
+URL=file:///home/jota/Desktop/dev/exercism/csharp/LICENSE
+
+[file:///home/jota/Desktop/dev/exercism/csharp/hello-world/HelloWorld.cs]
+Bookmarks=
+Checksum=5784ca41138e54381c0bd7a30b1c70e74adc31c9
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,25,19,28,12.066
+URL=file:///home/jota/Desktop/dev/exercism/csharp/hello-world/HelloWorld.cs
+
+[file:///home/jota/Desktop/dev/exercism/csharp/log-levels/LogLevels.cs]
+Bookmarks=
+Checksum=245b715e4f90c9b95d23950b0d4086dfba877380
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,31,23,38,15.993
+URL=file:///home/jota/Desktop/dev/exercism/csharp/log-levels/LogLevels.cs
+
+[file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagna.cs]
+Bookmarks=
+Checksum=6addd31bc00086a187a63928cd8ae7440d0d8444
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,25,20,4,30.84
+URL=file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagna.cs
+
+[file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagna.csproj]
+Bookmarks=
+Checksum=756a9d4f93e52c863a7c2fe3037c416e3a6e46c3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,8,25,20,4,30.84
+URL=file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagna.csproj
+
+[file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagnaTests.cs]
+Bookmarks=
+Checksum=7d2d6d790c6cebf2593966892e634a86e08242a9
+Encoding=UTF-8
+Highlighting=C#
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C#
+Mode Set By User=false
+Time=2026,8,25,20,4,30.84
+URL=file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/LuciansLusciousLasagnaTests.cs
+
+[file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/packages.lock.json]
+Bookmarks=
+Checksum=376ba63d14ad046d06992f7720d9421b551983f2
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2026,8,25,20,4,30.84
+URL=file:///home/jota/Desktop/dev/exercism/csharp/lucians-luscious-lasagna/packages.lock.json
+
+[file:///home/jota/Desktop/dev/hashtag/claudet/aula_1/senha.txt]
+Bookmarks=
+Checksum=d8464e9bc387b08ad1d4d775b57491e83464b1d3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,15,14,24,1.609
+URL=file:///home/jota/Desktop/dev/hashtag/claudet/aula_1/senha.txt
+
+[file:///home/jota/Downloads/Arquivo vazio]
+Bookmarks=
+Checksum=985693547bc1e4b13e2f98bda71af91a9b122876
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,9,18,3,11.821
+URL=file:///home/jota/Downloads/Arquivo vazio
+
+[file:///home/jota/Downloads/TestPyPI-Recovery-Codes-jota4wd-2025-04-24T19_40_22.299923 (1).txt]
+Bookmarks=
+Checksum=de822fa195494ddbcb8db79242c6f3e0c09733a8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,9,18,1,10.244
+URL=file:///home/jota/Downloads/TestPyPI-Recovery-Codes-jota4wd-2025-04-24T19_40_22.299923 (1).txt
+
+[file:///home/jota/Downloads/a15/Download/capitulos.txt]
+Bookmarks=
+Checksum=025c8eac1d6b7144290bef65a89227f53f06fad6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,9,18,2,24.536
+URL=file:///home/jota/Downloads/a15/Download/capitulos.txt
+
+[file:///home/jota/Downloads/link.txt]
+Bookmarks=
+Checksum=346256638c775e775084ab8b3d5663afe8d8884c
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2026,9,9,18,1,27.473
+URL=file:///home/jota/Downloads/link.txt
+
+[file:///home/jota/bin/pobre_code]
+Bookmarks=
+Checksum=430d61c397c70b964081d23570ddbf2e16f4f73b
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2026,9,6,16,2,33.261
+URL=file:///home/jota/bin/pobre_code
+
+[file:///home/jota/bin/pobre_code.sh]
+Bookmarks=
+Checksum=35f374a7e9f9edd2f0c058dfa760aee1e4449bb6
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2026,8,27,13,46,37.428
+URL=file:///home/jota/bin/pobre_code.sh
