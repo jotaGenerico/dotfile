@@ -1,53 +1,8 @@
 -- ========================================================================== --
--- 0. TEMA E TRANSPARÊNCIA
+-- 0. NODE NPM PATH (para CoC funcionar)
 -- ========================================================================== --
-vim.g.sonokai_style = 'andromeda'
-
-local function apply_transparency()
-    local groups = {
-        "Normal", "NormalNC", "EndOfBuffer", "SignColumn",
-        "Pmenu", "TelescopeBorder", "LineNr", "CursorLineNr",
-        "BufferLineFill", "BufferLineBackground",
-        "NvimTreeNormal", "NvimTreeNormalNC", "NvimTreeEndOfBuffer",
-        "NvimTreeVertSplit", "NvimTreeStatusLine", "NvimTreeStatusLineNC"
-    }
-    for _, group in ipairs(groups) do
-        vim.api.nvim_set_hl(0, group, { bg = "NONE", ctermbg = "NONE" })
-    end
-    vim.api.nvim_set_hl(0, "ColorColumn", { bg = "#000000", ctermbg = 236 })
-    vim.api.nvim_set_hl(0, "CursorLine", { bg = "#0a0a0a", ctermbg = 234 })
-end
-
--- Escolha seu tema aqui
-vim.cmd('colorscheme jotan')
--- vim.cmd('colorscheme sonokai')
--- vim.cmd('colorscheme kanagawa')
--- vim.cmd('colorscheme github_dark')
-
--- vim.defer_fn(apply_transparency, 100)
-
-vim.api.nvim_create_autocmd("ColorScheme", {
-    pattern = "*",
-    callback = function()
-        vim.defer_fn(apply_transparency, 100)
-    end
-})
-
--- Definição de cores baseada no jotan.lua
-local colors = {
-    bg_bar      = "NONE",
-    bg_active   = "#2a2a2a", -- Cinza grafite (Aba atual)
-    bg_inactive = "#111111", -- Escuro (Abas em background)
-    fg_text     = "#ffffff", -- Texto branco
-    yellow      = "#ffff00", -- Amarelo
-    red         = "#ff0000", -- Vermelho
-    -- Cores dos Modos
-    normal      = "#5454ff", -- Roxo
-    insert      = "#ffff00", -- Amarelo
-    visual      = "#58FF1E", -- Verde
-}
-
-
+-- workaround se necessario
+--vim.g.coc_node_path = '/usr/local/bin/node'
 
 -- ========================================================================== --
 -- 1. PLUGINS (Vim-Plug)
@@ -63,8 +18,8 @@ Plug 'projekt0n/github-nvim-theme'
 -- Visual e Interface
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-tree/nvim-web-devicons'
-Plug 'nvim-lualine/lualine.nvim'
-Plug('akinsho/bufferline.nvim', { ['tag'] = 'v4.*' })
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-tree/nvim-tree.lua'
 
 -- Syntax e Highlight
@@ -149,83 +104,13 @@ require('gitsigns').setup({
 -- Which-key (mostra atalhos)
 require('which-key').setup()
 
--- Lualine (barra de status)
-require('lualine').setup({
-  options = {
-    theme = 'auto',
-    icons_enabled = true,
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
-  },
-})
-
--- Bufferline (abas/buffers)
-require('bufferline').setup({
-  options = {
-    mode = 'buffers',
-    numbers = 'none',
-    -- Mouse habilitado como você pediu
-    close_command = 'bdelete! %d',
-    right_mouse_command = 'bdelete! %d',
-    left_mouse_command = 'buffer %d',
-
-    modified_icon = '●',
-    diagnostics = 'coc',
-    -- Removi o indicador de números/contagem de erros
-
-    offsets = {
-      {
-        filetype = 'NvimTree',
-        text = 'File Explorer',
-        text_align = 'center',
-        separator = true,
-      }
-    },
-    separator_style = 'slant',
-    show_buffer_icons = true,
-    show_buffer_close_icons = false, -- Sem o 'x'
-    show_close_icon = false,
-    show_tab_indicators = false, -- Removi a barrinha lateral
-    persist_buffer_sort = true,
-    always_show_bufferline = true,
-  },
-  highlights = {
-    fill = { bg = colors.bg_bar },
-    background = { fg = colors.fg_text, bg = colors.bg_inactive },
-    buffer_selected = { fg = colors.fg_text, bg = colors.bg_active, bold = true },
-
-    -- Erros apenas mudam a cor, sem números
-    error = { fg = colors.red, bg = colors.bg_inactive },
-    error_selected = { fg = colors.red, bg = colors.bg_active },
-    warning = { fg = colors.yellow, bg = colors.bg_inactive },
-    warning_selected = { fg = colors.yellow, bg = colors.bg_active },
-
-    modified = { fg = colors.yellow, bg = colors.bg_inactive },
-    modified_selected = { fg = colors.yellow, bg = colors.bg_active },
-
-    -- Separadores dinâmicos
-    separator = { fg = colors.normal, bg = colors.bg_inactive },
-    separator_selected = { fg = colors.normal, bg = colors.bg_active },
-    separator_visible = { fg = colors.normal, bg = colors.bg_inactive },
-  },
-})
-
--- Script de mudança de cor por modo (Apenas para os separadores agora)
-local function update_bufferline_mode_colors()
-  local mode = vim.fn.mode()
-  local mode_color = colors.normal
-  if mode == 'i' then mode_color = colors.insert
-  elseif mode:match('[vV\22]') then mode_color = colors.visual
-  end
-
-  local groups = { "BufferLineSeparator", "BufferLineSeparatorSelected", "BufferLineSeparatorVisible" }
-  for _, group in ipairs(groups) do
-    local bg = (group == "BufferLineSeparatorSelected") and colors.bg_active or colors.bg_inactive
-    vim.api.nvim_set_hl(0, group, { fg = mode_color, bg = bg })
-  end
-end
-
-vim.api.nvim_create_autocmd({ "ModeChanged", "VimEnter" }, { callback = update_bufferline_mode_colors })
+-- Airlines
+vim.g['airline#extensions#tabline#enabled'] = 1
+vim.g['airline#extensions#tabline#formatter'] = 'default' -- Alterado de jsformatter
+vim.g['airline#extensions#tabline#has_icons'] = 1
+vim.g.airline_powerline_fonts = 1
+vim.g['airline#extensions#branch#enabled'] = 0
+vim.g.airline_theme = 'jota'
 
 -- Nvim-tree (file explorer)
 require('nvim-tree').setup({
@@ -238,16 +123,40 @@ require('nvim-tree').setup({
     update_root = true,
   },
   view = {
-    width = 20,
+    width = 25,          -- um pouco mais largo, facilita leitura
     side = 'left',
+    preserve_window_proportions = true, -- mantém proporção ao abrir
   },
   renderer = {
+    indent_markers = {
+      enable = true,     -- ativa os traços de indentação só na árvore
+    },
+    highlight_git = true, -- cores para status git
+    highlight_opened_files = "name", -- destaca arquivos abertos
     icons = {
       show = {
         file = true,
         folder = true,
         folder_arrow = true,
         git = true,
+      },
+      glyphs = {
+        default = "",
+        folder = {
+          arrow_closed = "",
+          arrow_open = "",
+          default = "",
+          open = "",
+          empty = "",
+          empty_open = "",
+        },
+        git = {
+          unstaged = "✗",
+          staged = "✓",
+          unmerged = "",
+          renamed = "➜",
+          untracked = "★",
+        },
       },
     },
   },
@@ -256,7 +165,13 @@ require('nvim-tree').setup({
     git_ignored = false,
     custom = { 'node_modules', '.cache' },
   },
+  actions = {
+    open_file = {
+      quit_on_open = false, -- fecha a árvore ao abrir arquivo
+    },
+  },
 })
+
 
 -- CCC começa DESLIGADO
 vim.g.coc_enabled = false
@@ -308,6 +223,7 @@ opt.cursorline = true
 opt.expandtab = false
 opt.ignorecase = true
 opt.mouse = "a"
+opt.mousescroll = "ver:3,hor:0"
 opt.number = true
 opt.relativenumber = true
 opt.scrolloff = 10
@@ -330,9 +246,45 @@ opt.listchars = {
 }
 
 
+-- ========================================================================== --
+-- 4. TEMA E TRANSPARÊNCIA
+-- ========================================================================== --
+vim.g.sonokai_style = 'jotan'
+
+local function apply_transparency()
+    local groups = {
+        "Normal", "NormalNC", "EndOfBuffer", "SignColumn",
+        "Pmenu", "TelescopeBorder", "LineNr", "CursorLineNr",
+        "BufferLineFill", "BufferLineBackground",
+        "NvimTreeNormal", "NvimTreeNormalNC", "NvimTreeEndOfBuffer",
+        "NvimTreeVertSplit", "NvimTreeStatusLine", "NvimTreeStatusLineNC"
+    }
+    for _, group in ipairs(groups) do
+        vim.api.nvim_set_hl(0, group, { bg = "NONE", ctermbg = "NONE" })
+    end
+    vim.api.nvim_set_hl(0, "ColorColumn", { bg = "#000000", ctermbg = 236 })
+    vim.api.nvim_set_hl(0, "CursorLine", { bg = "#0a0a0a", ctermbg = 234 })
+end
+
+-- Escolha seu tema aqui
+vim.cmd('colorscheme jotan')
+
+-- vim.cmd('colorscheme sonokai')
+-- vim.cmd('colorscheme kanagawa')
+-- vim.cmd('colorscheme github_dark')
+--vim.defer_fn(apply_transparency, 100)
+
+vim.api.nvim_create_autocmd("ColorScheme", {
+    pattern = "*",
+    callback = function()
+        vim.defer_fn(apply_transparency, 100)
+    end
+})
+
+
 
 -- ========================================================================== --
--- 6. ATALHOS (KEYMAPS)
+-- 5. ATALHOS (KEYMAPS)
 -- ========================================================================== --
 local keymap = vim.keymap.set
 vim.g.mapleader = "\\"
@@ -342,8 +294,8 @@ keymap('n', '<C-h>', '<C-w>h')
 keymap('n', '<C-j>', '<C-w>j')
 keymap('n', '<C-k>', '<C-w>k')
 keymap('n', '<C-l>', '<C-w>l')
-keymap('n', '<M-Right>', ':BufferLineCycleNext<CR>')
-keymap('n', '<M-Left>', ':BufferLineCyclePrev<CR>')
+keymap('n', '<M-Right>', ':bnext<CR>')
+keymap('n', '<M-Left>', ':bprevious<CR>')
 keymap('n', '<M-d>', ':bp | bd #<CR>', { silent = true })
 keymap('n', '<leader>ff', ':Telescope find_files<CR>')
 keymap('n', '<leader>fg', ':Telescope live_grep<CR>')
@@ -361,6 +313,8 @@ keymap('n', '<C-/>', 'gcc', { remap = true, silent = true })
 -- No modo visual: comenta o bloco selecionado
 keymap('v', '<C-_>', 'gc', { remap = true, silent = true })
 keymap('v', '<C-/>', 'gc', { remap = true, silent = true })
+--Limpar memoria pesquisa
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Terminal
 keymap('n', '<C-t>', ':botright split | resize 9 | terminal<CR>i', { silent = true })
@@ -380,7 +334,7 @@ vim.api.nvim_create_autocmd("TermOpen", {
 })
 
 -- ========================================================================== --
--- 7. COC CONFIG (AUTOCOMPLETE E LINTER)
+-- 6. COC CONFIG (AUTOCOMPLETE E LINTER)
 -- ========================================================================== --
 
 -- TAB e ENTER devem ser SEMPRE literais (sem autocomplete automático)
@@ -403,7 +357,7 @@ vim.g.coc_enable_inlay_hint = 0
 
 
 -- ========================================================================== --
--- 8. NORMA 42 (HEADER)
+-- 7. NORMA 42 (HEADER)
 -- ========================================================================== --
 _G.insert_std_header = function()
     local header = {
