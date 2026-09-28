@@ -32,7 +32,7 @@ set scrolloff=8
 set colorcolumn=81
 set signcolumn=yes
 set cmdheight=1
-set updatetime=100
+set updatetime=1000
 set encoding=utf-8
 set termguicolors
 set nobackup
@@ -185,13 +185,9 @@ let g:jedi#environment_path = "venv"
 let g:jedi#completions_enabled = 0
 
 let g:ale_enabled = 1
-let g:ale_completion_enabled = 1
+let g:ale_completion_enabled = 0
 let g:ale_linters = {'c': ['gcc'], 'sh': ['shellcheck']}
 let g:ale_fix_on_save = 0
-
-" C/C++ & 42 Config
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-source /home/jota/.config/nvim/forty_two.vim
 
 " Python
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
