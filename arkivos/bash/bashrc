@@ -90,6 +90,8 @@ OMB_USE_SUDO=true
 # Example format: completions=(ssh git bundler gem pip pip3)
 # Add wisely, as too many completions slow down shell startup.
 completions=(
+  git
+  ssh
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -105,6 +107,7 @@ aliases=(
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  git
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -151,61 +154,22 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
-
-
-# meus alias
-alias wifi_r='sudo modprobe -r wl && sudo modprobe wl'
-export PATH=$PATH:/home/jota/Desktop/dev/42sp/norminette/bin
-alias moedor=norminette
-alias no_main='norminette $(find . \( -name "*.c" -o -name "*.h" \) ! -name "main.c")'
-
-alias gww='gcc -Wall -Wextra -Werror'
-alias ft='gcc -Wall -Wextra -Werror -o a.out main.c -L. -lft'
-
-alias liberar='set +o noclobber'
-
-# Aliases para manter as configurações separadas
-export PATH="$HOME/bin:$PATH"
-alias vim='/usr/bin/vim'
-alias nvim='nvim'
-
-# Pyenv Lazy Load
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-pyenv() {
-    unset -f pyenv
-    eval "$(command pyenv init -)"
-    pyenv "$@"
-}
-
-alias francinette=/home/jota/francinette/tester.sh
-alias paco=/home/jota/francinette/tester.sh
-
-# NVM Lazy Load (Abre o terminal instantaneamente)
-nvm() {
-    unset -f nvm node npm
-    export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    nvm "$@"
-}
-node() { nvm ls >/dev/null && node "$@"; }
-npm() { nvm ls >/dev/null && npm "$@"; }
-
-export PATH="$HOME/.local/bin:$PATH"
-
-# snipet exercism
-if [ -f ~/.config/exercism/exercism_completion.bash ]; then
-  source ~/.config/exercism/exercism_completion.bash
-fi
-
-# .NET SDK Local
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/jota/.local/bin:$PATH"
-
-# gemini cli
+# Node (nvm)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# .NET
+export DOTNET_ROOT="$HOME/.dotnet"
+export PATH="$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
+
+# 42: norminette e compilação
+export PATH="$PATH:$HOME/Desktop/dev/42sp/norminette/bin"
+alias moedor=norminette
+alias no_main='norminette $(find . \( -name "*.c" -o -name "*.h" \) ! -name "main.c")'
+alias gww='gcc -Wall -Wextra -Werror'
+alias ft='gcc -Wall -Wextra -Werror -o a.out main.c -L. -lft'
+alias liberar='set +o noclobber'
+
+# exercism
+[ -f ~/.config/exercism/exercism_completion.bash ] && source ~/.config/exercism/exercism_completion.bash

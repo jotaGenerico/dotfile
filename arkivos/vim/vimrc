@@ -206,11 +206,11 @@ nnoremap <leader>n :bn<CR>
 nnoremap <leader>b :bp<CR>
 nnoremap <leader>q :bd<CR>
 nnoremap <leader>c :!
-nnoremap <leader>r :!python %<CR>
+nnoremap <leader>r :!python3 %<CR>
 
 " Pessoais e Busca
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-vnoremap y y:call system('xclip -selection clipboard', @")<CR>
+" vnoremap y y:call system('xclip -selection clipboard', @")<CR>
 
 " Funções de Cabeçalho 42
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

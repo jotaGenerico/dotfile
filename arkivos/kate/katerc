@@ -19,9 +19,12 @@ Allow Tab Scrolling=true
 Auto Hide Tabs=false
 Close After Last=false
 Close documents with window=true
+Cycle To First Tab=true
 Days Meta Infos=30
+Diagnostics Limit=12000
 Diff Show Style=0
 Elide Tab Text=false
+Enable Context ToolView=false
 Expand Tabs=false
 Icon size for left and right sidebar buttons=20
 Modified Notification=false
@@ -29,6 +32,8 @@ Mouse back button action=0
 Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
+Output With Date=false
+PinnedDocuments=
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
@@ -170,12 +175,9 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
-[KTextEditor::Search]
-Replace History=SUA_CHAVE_AQUI,,shoppingList,directoryFiles,jose-cad,94585-8631,bolegari,91173-7022,double,651eff,5a08ff,7300ff,5500ff,Charmander,pos_match,pos_buf,arr,argv,argc,$(SRCS_DIR),s_media,s_todos,0,int,quem somos,CONEX AR,ft_printf,isspace,GNL_SIZE,PF_SIZE,*arg,*input,ft_dispatch_specifier,ft_print_literal_char,ft_print_formatted,teste2.txt,teste1.txt,flag_minus,storage[fd],.bonus_done,pos,vetor,dentro,get_word,espaco,count_words,message_usage,message_error_range,bfs,',imersaoAlura,c,b,a,i,#,#003b4f,#bd93f9,nptr,signal,80c794,f08b3d,fad462,5a8667,c58af9,target,base,needle,haystack,#DA70D6,#D8BFD8,#8B008B,#4B0082,#E6E6FA,#E0FFFF,#FFD700,#FF7F50,#4682B4,#B0C4DE,#FFA500,#98FB98,#4169E1,#C678DD,jota,#58FF1E,#5454ff,#6814f9,#55ff00,58FF1E,de1cdb,"#006d9f,jerm
-Search History=GROQ_API_KEY,shoopingList,directoryName,sin_addr,bolegari,kgagliar,911737022,91173-7022,+55 (11) 91173-7022,jgiancol,91173-7002,gru,35,vendas,jota,heran,TEC,return,decodeChunkedBody,catch,new,client,if (requestComplete),header,*,&,const std::string,scriptFile,retu,length,le,float,TextSelection,5a08ff,7300ff,7300f,5500ff,SelectionTextColor,bd93f9,3d2b6b,rat,Rattata,rgb_bonus.c,inc,achado,buffer_pos,code-block,Verificação de Memory Leaks:,Thread de Monitoramento:, [cite: 50], [cite: 49], [cite: 48], [cite: 47], [cite: 46], [cite: 45],vet,Proteção: morte vs comer simultaneamente,// utils_bonus.c,Semáforo único representando ,Testes Obrigatórios (Evaluation Sheet),// simulation_bonus.c ,// monitor.c - check_death(),// init.c - init_mutexes(), // ✅ Inicializa UM mutex para CADA garfo int i = 0; while (i < ,// init.c - init_table(),// simulation.c - create_threads(),alvo_len,keymap('n'\\, '<leader>d'\\, ':bp | bd #<CR>'\\, { silent = true })\n,vim.g.coc_enabled = false,vim.g.mapleader,vim.g.mapleader = "\\\\\\\\"\n,whichvim.g.mapleader = "\\\\\\\\",which,vim.g.coc_enabled,vim.g.coc,vimg.g.coc,vim.Coc,vim.g.mapleader = ",vim.g.coc_snippet_next = '',cite,main,read,get_time_since_meal,av,ac,system,_bonus,$(BONUS_DIR),BONUS_,600,bonus,exec_builtin_child,2>,void\t\t\t\t\tsetup_signals(void);,s_media_corrigida,soma,scm_prompt_info,false,bool,free
-
 [Konsole]
 AutoSyncronize=true
+AutoSyncronizeMode=1
 KonsoleEscKeyBehaviour=false
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
@@ -186,6 +188,7 @@ SetEditor=false
 1280x720 screen: Height=691
 1280x720 screen: Width=635
 1280x720 screen: Window-Maximized=true
+1536x864 screen: Window-Maximized=true
 1920x1080 screen: Window-Maximized=true
 State=AAAA/wAAAAD9AAAAAAAABNcAAAKeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

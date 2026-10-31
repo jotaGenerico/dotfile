@@ -1,5 +1,5 @@
 
-# 💻 Dotfiles: Bash, Kate, Vim & Neovim
+# 💻 Dotfiles: Bash, Kate, Vim & Konsole
 
 Repositório de configurações para produtividade e ambiente de desenvolvimento onde quer que eu va (hu3).
 
@@ -9,64 +9,65 @@ Toda a configuração está concentrada no diretório `arkivos/`:
 
 -   **Fontes**: Localizadas em `arkivos/ambiente/`. Inclui ComicShanns, OpenDyslexic e Powerline Symbols.
 
--   **Temas (Colorschemes)**:
+-   **Vim**: `arkivos/vim/vimrc` (casa) e `arkivos/vim/vimrc42` (42). Temas em `arkivos/vim/colors/`.
 
-    -   **Vim**: Em `arkivos/vim/colors/` (Ex: `jota.vim`, `cyberPunk.vim`).
+-   **Bash**: `arkivos/bash/bashrc` (casa) e `arkivos/bash/bashrc42` (42). Tema do oh-my-bash em `arkivos/bash/custom/themes/jota/`.
 
-    -   **Neovim**: Em `arkivos/nvim/colors/` (`jotan.lua`).
+-   **Konsole**: Perfis e esquemas de cores em `arkivos/bash/konsole/`.
 
-    -   **Bash**: Em `arkivos/bash/custom/themes/jota/`.
+-   **Kate**: Configuração em `arkivos/kate/` e tema de cores em `arkivos/kate/themes/jota.theme`.
 
 
 ## 🛠️ Como Utilizar
 
-### 1. Vim
-
-Escolha um dos perfis em `arkivos/vim/` e linke para sua home:
-
-Bash
+### 1. Fontes
 
 ```
-# Exemplo para usar a configuração atual da 42
-ln -s ~/dotfile/arkivos/vim/vimrc_42sp ~/.vimrc
+mkdir -p ~/.local/share/fonts
+unzip -o ~/dotfile/arkivos/ambiente/ComicShannsMono.zip -d ~/.local/share/fonts/
+unzip -o ~/dotfile/arkivos/ambiente/OpenDyslexic.zip -d ~/.local/share/fonts/
+unzip -o ~/dotfile/arkivos/ambiente/PowerlineExtraSymbols.zip -d ~/.local/share/fonts/PowerlineExtraSymbols
+fc-cache -f
+```
 
-# Copie os temas para o diretório do Vim
+### 2. Vim
+
+Plugins via vim-plug (`:PlugInstall` depois de copiar). Para copiar do vim para fora, instale o `vim-gtk3`.
+
+```
+cp ~/dotfile/arkivos/vim/vimrc ~/.vimrc
 mkdir -p ~/.vim/colors
 cp ~/dotfile/arkivos/vim/colors/* ~/.vim/colors/
-
 ```
 
-### 2. Neovim (Nvim)
+### 3. Bash (oh-my-bash)
 
-A configuração principal está em `arkivos/nvim/init.lua`.
-
-Bash
+Com o oh-my-bash já instalado:
 
 ```
-mkdir -p ~/.config/nvim
-ln -s ~/dotfile/arkivos/nvim/init.lua ~/.config/nvim/init.lua
-ln -s ~/dotfile/arkivos/nvim/coc-settings.json ~/.config/nvim/coc-settings.json
-
+cp ~/dotfile/arkivos/bash/bashrc ~/.bashrc
+mkdir -p ~/.oh-my-bash/custom/themes
+cp -r ~/dotfile/arkivos/bash/custom/themes/jota ~/.oh-my-bash/custom/themes/
 ```
 
-### 3. Bash
-
-Integre o `bashrc` customizado:
-
-Bash
+### 4. Konsole
 
 ```
-cat ~/dotfile/arkivos/bash/bashrc >> ~/.bashrc
+mkdir -p ~/.local/share/konsole
+cp ~/dotfile/arkivos/bash/konsole/*.profile ~/dotfile/arkivos/bash/konsole/*.colorscheme ~/.local/share/konsole/
+```
 
+### 5. Kate
+
+```
+cp ~/dotfile/arkivos/kate/katerc ~/dotfile/arkivos/kate/kateschemarc ~/dotfile/arkivos/kate/katevirc ~/.config/
+mkdir -p ~/.config/kate ~/.local/share/org.kde.syntax-highlighting/themes
+cp -r ~/dotfile/arkivos/kate/externaltools ~/dotfile/arkivos/kate/formatting ~/dotfile/arkivos/kate/lspclient ~/.config/kate/
+cp ~/dotfile/arkivos/kate/themes/jota.theme ~/.local/share/org.kde.syntax-highlighting/themes/
 ```
 
 ## 📝 Notas
 
 -   **Cheat Sheet**: Consulte `arkivos/vim_cheat_sheet.png` para atalhos rápidos.
 
--   **Linter 42**: O arquivo `arkivos/nvim/arkivos/clang.format-42` está disponível para padronização de código.
-
-
-----------
-
-### Cuidado com o `init.lua.b`:  arquivos com extensão `.b` ou `.original` são backups e não devem ser usados como principal.
+-   **Linter 42**: O arquivo `arkivos/clang.format-42` está disponível para padronização de código.
