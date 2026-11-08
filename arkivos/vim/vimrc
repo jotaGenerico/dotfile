@@ -49,7 +49,6 @@ filetype on
 filetype plugin on
 filetype indent on
 let mapleader = "\\"
-
 set completeopt=menuone,noinsert,noselect
 set omnifunc=syntaxcomplete#Complete
 set wildmenu
@@ -77,6 +76,7 @@ if has('terminal')
   let &t_AF="\e[38;5;%dm"
 
   autocmd TerminalOpen * setlocal nonumber norelativenumber signcolumn=no
+  tnoremap <Esc> <C-w>N
 endif
 
 " IdentLine
@@ -93,6 +93,11 @@ let g:NERDTreeIgnore = ['\.o$', '\.out$']
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
 map <C-a> :NERDTreeToggle<CR>
 nnoremap <leader>a :NERDTreeToggle<CR>
+" garantir setas funcionando no NERDTree
+autocmd FileType nerdtree nnoremap <buffer> <Up> k
+autocmd FileType nerdtree nnoremap <buffer> <Down> j
+autocmd FileType nerdtree nnoremap <buffer> <Left> h
+autocmd FileType nerdtree nnoremap <buffer> <Right> l
 
 " Navegação entre splits
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -164,18 +169,31 @@ let g:ctrlp_show_hidden = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDDefaultNesting = 1
 let g:NERDAltDelims_c = 1
-let g:NERDSpaceDelims = 3
+let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
 let g:NERDCompactSexyComs = 1
 
-nnoremap <leader>l <Plug>NERDCommenterInsert
-vnoremap <leader>l <Plug>NERDCommenterInsert
-nnoremap <leader>c <Plug>NERDCommenterInvert
-vnoremap <leader>c <Plug>NERDCommenterInvert
-nnoremap <leader>b <Plug>NERDCommenterBlock
-vnoremap <leader>b <Plug>NERDCommenterBlock
-nnoremap <leader>s <Plug>NERDCommenterToggle
-vnoremap <leader>s <Plug>NERDCommenterToggle
+" <leader>c — toggle inteligente: sexy /* */ para comentar, uncomment para remover
+function! SmartCommentNormal()
+    let l:trim = substitute(getline('.'), '^\s*', '', '')
+    if l:trim =~# '^/[/*]' || l:trim =~# '^\*'
+        call NERDComment(0, 'uncomment')
+    else
+        call NERDComment(0, 'sexy')
+    endif
+endfunction
+
+function! SmartCommentVisual() range
+    let l:trim = substitute(getline(a:firstline), '^\s*', '', '')
+    if l:trim =~# '^/[/*]' || l:trim =~# '^\*'
+        call NERDComment(1, 'uncomment')
+    else
+        call NERDComment(1, 'sexy')
+    endif
+endfunction
+
+nnoremap <leader>c :call SmartCommentNormal()<CR>
+vnoremap <leader>c :call SmartCommentVisual()<CR>
 
 " Jedi & Ale
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -203,9 +221,8 @@ nnoremap <leader>i O<Esc>j
 nnoremap <leader>o A<CR>
 nnoremap <leader>t :tabe<CR>
 nnoremap <leader>n :bn<CR>
-nnoremap <leader>b :bp<CR>
 nnoremap <leader>q :bd<CR>
-nnoremap <leader>c :!
+nnoremap <leader>e :!
 nnoremap <leader>r :!python3 %<CR>
 
 " Pessoais e Busca

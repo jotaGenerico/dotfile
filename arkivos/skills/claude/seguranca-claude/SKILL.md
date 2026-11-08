@@ -53,7 +53,7 @@ Na dúvida entre os dois, pergunte.
 ## Formato de cada achado
 
 ```
-[SEC-xx] <título> — Severidade: Crítica | Alta | Média | Baixa — Status: confirmado | a confirmar
+[SEC-xx] <título> [(CWE-xxx)] — Severidade: Crítica | Alta | Média | Baixa — Status: confirmado | a confirmar
 Onde: caminho/arquivo.ext:linha
 Evidência: trecho ou comando + saída
 Exploração: o que um atacante faz e o que ganha
@@ -61,7 +61,7 @@ Correção: mudança mínima sugerida
 Prova: teste ou comando que demonstra o problema/correção
 ```
 
-ID: o número do item do `checklist.md`; dois achados no mesmo item recebem sufixo (`SEC-13a`, `SEC-13b`). Se o mesmo defeito viola vários itens, descreva-o por completo no item principal e, nos outros, só aponte "ver SEC-xx".
+ID e CWE: número do item do `checklist.md`; inclua `(CWE-xxx)` ao lado do título quando houver CWE clássico aplicável (ex.: CWE-89 SQLi, CWE-22 Path Traversal, CWE-639 IDOR, CWE-362 Race Condition, CWE-798 segredo exposto). Dois achados no mesmo item recebem sufixo (`SEC-13a`, `SEC-13b`). Se o mesmo defeito viola vários itens, descreva-o por completo no item principal e, nos outros, só aponte "ver SEC-xx".
 
 Severidade: **Crítica** = vazamento de segredo, dinheiro/saldo manipulável, acesso a dados de outro usuário. **Alta** = bypass de auth/autorização, injeção, DoS trivial. **Média** = defesa ausente com exploração condicionada. **Baixa** = higiene. Classifique pelo impacto no código como está hoje; se a exploração depende de outro defeito, cite-o ("ver SEC-xx"). Na dúvida entre duas, use a maior e justifique em uma linha.
 

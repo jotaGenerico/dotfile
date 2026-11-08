@@ -77,9 +77,6 @@ let g:NERDTreeHighlightCursorline = 0
 nnoremap <silent> <C-t> :botright terminal ++rows=9<CR>
 nnoremap <silent> <leader>z :botright terminal ++rows=9<CR>
 
-autocmd BufEnter term://* silent! nnoremap <buffer> <C-c> "+y
-autocmd BufEnter term://* silent! vnoremap <buffer> <C-c> "+y
-
 if has('terminal')
   " Define as cores para o terminal
   let g:terminal_ansi_colors = [
@@ -98,6 +95,7 @@ if has('terminal')
     autocmd TerminalOpen * setlocal winhighlight=Normal:Normal
   endif
   autocmd TerminalOpen * setlocal nonumber norelativenumber signcolumn=no
+  tnoremap <Esc> <C-w>N
 endif
 
 
@@ -130,6 +128,12 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " Toggle NERDTree
 map <C-a> :NERDTreeToggle<CR>
 nnoremap <leader>a :NERDTreeToggle<CR>
+
+" garantir setas funcionando no NERDTree
+autocmd FileType nerdtree nnoremap <buffer> <Up> k
+autocmd FileType nerdtree nnoremap <buffer> <Down> j
+autocmd FileType nerdtree nnoremap <buffer> <Left> h
+autocmd FileType nerdtree nnoremap <buffer> <Right> l
 
 
 
@@ -208,23 +212,31 @@ let g:ctrlp_show_hidden = 1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDDefaultNesting = 1
 let g:NERDAltDelims_c = 1
-let g:NERDSpaceDelims = 3
+let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
-" let g:NERDDefaultLiner = '// %s'
 let g:NERDCompactSexyComs = 1
 
-" Normal + Visual mode para melhor controle
-nnoremap <leader>l <Plug>NERDCommenterInsert
-vnoremap <leader>l <Plug>NERDCommenterInsert
+" <leader>c — toggle inteligente: sexy /* */ para comentar, uncomment para remover
+function! SmartCommentNormal()
+    let l:trim = substitute(getline('.'), '^\s*', '', '')
+    if l:trim =~# '^/[/*]' || l:trim =~# '^\*'
+        call NERDComment(0, 'uncomment')
+    else
+        call NERDComment(0, 'sexy')
+    endif
+endfunction
 
-nnoremap <leader>c <Plug>NERDCommenterInvert
-vnoremap <leader>c <Plug>NERDCommenterInvert
+function! SmartCommentVisual() range
+    let l:trim = substitute(getline(a:firstline), '^\s*', '', '')
+    if l:trim =~# '^/[/*]' || l:trim =~# '^\*'
+        call NERDComment(1, 'uncomment')
+    else
+        call NERDComment(1, 'sexy')
+    endif
+endfunction
 
-nnoremap <leader>b <Plug>NERDCommenterBlock
-vnoremap <leader>b <Plug>NERDCommenterBlock
-
-nnoremap <leader>s <Plug>NERDCommenterToggle
-vnoremap <leader>s <Plug>NERDCommenterToggle
+nnoremap <leader>c :call SmartCommentNormal()<CR>
+vnoremap <leader>c :call SmartCommentVisual()<CR>
 
 
 
@@ -285,7 +297,6 @@ nnoremap <leader>t :tabe<CR>
 
 " Navegar entre buffers
 nnoremap <leader>n :bn<CR>
-nnoremap <leader>b :bp<CR>
 
 " Criar splits caso isso seja util um dia
 " nnoremap <leader>h :split<CR>
@@ -295,7 +306,7 @@ nnoremap <leader>b :bp<CR>
 nnoremap <leader>q :bd<CR>
 
 " Atalho para comandos (:!)
-nnoremap <leader>c :!
+nnoremap <leader>e :!
 
 " Rodar script atual (ex: python)
 nnoremap <leader>r :!python %<CR>
