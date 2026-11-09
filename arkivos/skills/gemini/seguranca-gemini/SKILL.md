@@ -63,7 +63,7 @@ Correção: mudança mínima sugerida
 Prova: teste ou comando que demonstra o problema/correção
 ```
 
-- **ID e CWE:** número do item do `checklist.md` (`SEC-13a`, `SEC-13b` se houver mais de um); inclua `(CWE-xxx)` ao lado do título quando houver CWE clássico aplicável. Se o mesmo defeito viola vários itens, descreva no principal e nos demais aponte `"ver SEC-xx"`.
+- **ID e CWE:** número do item do `checklist.md` (`SEC-13a`, `SEC-13b` se houver mais de um); inclua `(CWE-xxx)` ao lado do título quando houver CWE clássico aplicável (ex.: CWE-89 SQLi, CWE-22 Path Traversal, CWE-639 IDOR, CWE-362 Race Condition, CWE-798 segredo exposto). Se o mesmo defeito viola vários itens, descreva no principal e nos demais aponte `"ver SEC-xx"`.
 - **Severidade:** **Crítica** = segredo exposto, dinheiro/saldo manipulável, acesso a dados de outro usuário. **Alta** = bypass de auth/autorização, injeção, DoS trivial. **Média** = defesa ausente com exploração condicionada. **Baixa** = higiene. Na dúvida entre duas, use a maior e justifique em uma linha.
 - **Status:** **confirmado** quando o código prova a ausência da proteção; **a confirmar (alta suspeita | baixa suspeita)** quando depende de infra/proxy/`NODE_ENV` fora do repo ou de teste dinâmico não executado (gradue a suspeita para priorizar o bloqueio).
 

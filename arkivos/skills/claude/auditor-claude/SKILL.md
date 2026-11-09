@@ -2,7 +2,7 @@
 name: auditor
 description: >-
   Use quando o usuário pedir code review, revisão de PR, revisão de branch antes do push ou revisão de código de colega.
-  Não use para auditoria de segurança (use seguranca) nem para spec/planejamento (use sdd-2).
+  Não use para auditoria de segurança (use seguranca) nem para spec/planejamento (use sdd2).
 ---
 
 # Auditor — Code Review técnico
@@ -15,7 +15,7 @@ Review focado em bugs que escapam ao compilador e ao linter: lógica errada, bor
 
 Analisa o diff (padrão: `git diff <branch-base>...HEAD`; pergunte a base se não for óbvia) ou os arquivos indicados. Não substitui:
 - **seguranca**: vulnerabilidades de segurança
-- **sdd-2**: planejamento e spec
+- **sdd2**: planejamento e spec
 - **tdd**: escrita de testes
 
 ## Fluxo

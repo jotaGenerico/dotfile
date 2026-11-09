@@ -1,5 +1,5 @@
 ---
-name: sdd-2
+name: sdd2
 description: >-
   Use quando o usuário pedir Spec-Driven Development 2.0 (SDD 2.0, sdd2, sdd_2, Elephant Goldfish Model, EGM):
   avaliar se uma feature ou projeto justifica o fluxo, mapear invariantes (bootstrap), refinar uma ideia (brainstorm),

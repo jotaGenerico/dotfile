@@ -1,7 +1,7 @@
 ---
-name: sdd-2
+name: sdd2
 description: >-
-  Ative SOMENTE quando o usuário pedir explicitamente SDD 2.0 (sdd-2, sdd2, EGM, Elephant Goldfish Model)
+  Ative SOMENTE quando o usuário pedir explicitamente SDD 2.0 (sdd2, sdd-2, EGM, Elephant Goldfish Model)
   ou uma de suas fases (bootstrap, brainstorm, draft, review, drift). Nunca ative por conta própria.
 ---
 

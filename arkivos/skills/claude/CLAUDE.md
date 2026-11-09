@@ -44,5 +44,4 @@ Valem desde o primeiro commit. Não são código especulativo: são o mínimo co
 - Repositórios externos: pode abrir PR apontando para `main` normalmente.
 - Merge de PR só com autorização explícita do usuário.
 - Ao abrir um PR ou pedir autorização de merge, deixe claro se será squash ou merge commit.
-- Antes de abrir PR em repositório vinculado a Jira, use a skill `verificar-ticket-jira` (se disponível; senão, avise).
-- Assim que uma tarefa for concluída (PR mesclado), dê baixa no ticket Jira na hora (transição para "Concluído"), se disponível; senão, avise.
+- Jira só quando eu pedir (verificar, criar tarefa/subtarefa ou dar baixa): use a skill `jira`, mantendo o vínculo com a branch/PR atual. Nunca por conta própria.
