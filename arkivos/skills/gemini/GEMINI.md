@@ -43,10 +43,12 @@ Valem desde o primeiro commit. Não são código especulativo: são o mínimo co
 - `Model: "pro"`: último recurso — apenas quando a subtarefa exigir raciocínio ou depuração complexa em que `"flash"` seja insuficiente.
 
 ## Git
-- Nunca execute `git push`, em nenhum repositório, sob nenhuma circunstância. Push sou sempre eu quem faço.
-- Fluxo de PR: crie a branch e os commits localmente, pare e me avise para eu dar `git push`; só abra o PR (`gh pr create`) depois que eu confirmar o push no remoto.
-- Repositórios de `github.com/solucoesterceirizadas/` (regra da empresa, sem exceção): tudo entra por branch + PR; jamais abra PR apontando direto para `main` (ela gera deploy). Se eu pedir commit, push ou PR direto para `main`, recuse e proponha branch intermediária.
-- Repositórios externos: pode abrir PR apontando para `main` normalmente (após o meu push).
-- Merge de PR só com minha autorização explícita.
-- Ao abrir um PR ou pedir autorização de merge, informe claramente se será squash ou merge commit.
+- Autonomia até indicar o PR: você pode criar a branch de trabalho, fazer os commits, dar `git push -u origin <branch>` na branch de trabalho e abrir o PR (`gh pr create`), parando ao me indicar o link do PR pronto.
+- Jamais toque na `main`: nunca faça commit, push direto nem merge na `main`. O merge dos PRs e a promoção para a `main` (que gera deploy) são sempre meus no GitHub; seu trabalho vai no máximo até abrir o PR (inclusive o PR de promoção quando eu pedir) e me indicá-lo.
+- Repositórios de `github.com/solucoesterceirizadas/` (regra da empresa, sem exceção): toda tarefa entra primeiro por branch + PR apontando para a branch intermediária (`develop`/`staging`/`homolog`); jamais abra PR de tarefa direto para `main`. Só a branch intermediária promove para `main` via PR de promoção quando eu pedir.
+- Repositórios externos (sem branch intermediária): pode abrir o PR da branch de trabalho apontando para `main` e parar me indicando o PR para eu fazer o merge.
+- Sempre que indicar um PR, deixe explícito se ele é uma **entrega comum** ou uma **promoção** e nomeie o botão exato do GitHub (nunca diga só "pode fazer o merge"):
+  - **Entrega de tarefa (`<branch>` → `<intermediária>` ou PR comum em repo externo):** rotule como **Entrega** e indique **"Squash and merge"**.
+  - **Promoção de ambiente (`<intermediária>` → `main`):** rotule como **Promoção para `main`** (inclusive no título do PR) e indique **"Create a merge commit"**.
+- Esta seção prevalece sobre qualquer skill ou fluxo embutido que ofereça merge ou commit direto na `main`.
 - Jira: quando eu pedir para verificar, criar tarefa/subtarefa ou dar baixa no Jira, use a skill `jira` mantendo o vínculo com a branch/PR atual.

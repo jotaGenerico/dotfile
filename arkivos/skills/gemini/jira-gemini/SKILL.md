@@ -72,4 +72,4 @@ Consulte sempre o **status atual** e as **transições disponíveis** do ticket 
   - Se o workflow bloquear a transição direta (ex.: exigir passar primeiro por `"Em andamento"` ou `"Em revisão"`), execute as etapas permitidas pelo workflow ou reporte o bloqueio ao usuário.
 
 ### 6. Manter o rastro com o Git / PR
-Sempre informe ao usuário no chat a chave e o status final do ticket (ex.: `DEV-123 → Em andamento` ou `DEV-123 → Concluído`). Quando a tarefa ainda for gerar branch, commit ou PR em repositório vinculado ao Jira, use essa mesma chave `<TICKET>` no nome da branch, nas mensagens de commit e no título/corpo do PR.
+Sempre informe ao usuário no chat a chave e o status final do ticket (ex.: `DEV-123 → Em andamento` ou `DEV-123 → Concluído`). Quando a tarefa ainda for gerar branch, commit ou PR em repositório vinculado ao Jira, use essa mesma chave `<TICKET>` no nome da branch, nas mensagens de commit e no título/corpo do PR. Ao indicar o PR ao usuário, deixe explícito se é **Entrega de tarefa → `"Squash and merge"`** ou **Promoção para `main` → `"Create a merge commit"`** (promoção para `main` é exclusiva do usuário).

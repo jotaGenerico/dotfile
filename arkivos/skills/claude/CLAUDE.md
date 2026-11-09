@@ -38,10 +38,12 @@ Valem desde o primeiro commit. Não são código especulativo: são o mínimo co
 - Padrão `sonnet`. `haiku` sempre para tarefas simples: pesquisa/busca em arquivos ou código, leitura, listagem e tarefas mecânicas.
 
 ## Git
-- Push nunca: em nenhum repositório, sob nenhuma circunstância. Push é sempre o usuário quem faz.
-- Fluxo antes de abrir PR: crio a branch e faço o commit local → paro e aviso para o usuário dar push → só abro o PR depois que a branch estiver no remoto.
-- Repositórios de github.com/solucoesterceirizadas/ (regra da empresa, sem exceção): tudo entra por branch + PR; jamais PR apontando direto para `main`, porque ela gera deploy. Se o usuário pedir PR para `main`, recuso e proponho branch intermediária.
-- Repositórios externos: pode abrir PR apontando para `main` normalmente.
-- Merge de PR só com autorização explícita do usuário.
-- Ao abrir um PR ou pedir autorização de merge, deixe claro se será squash ou merge commit.
+- Autonomia até indicar o PR: posso criar a branch de trabalho, fazer os commits, dar `git push -u origin <branch>` na branch de trabalho e abrir o PR (`gh pr create`), parando ao indicar o link do PR pronto ao usuário.
+- Jamais toco na `main`: nunca faço commit, push direto nem merge na `main`. O merge dos PRs e a promoção para a `main` (que gera deploy) são sempre do usuário no GitHub; meu trabalho vai no máximo até abrir o PR (inclusive o PR de promoção quando o usuário pedir) e indicá-lo.
+- Repositórios de github.com/solucoesterceirizadas/ (regra da empresa, sem exceção): toda tarefa entra primeiro por branch + PR apontando para a branch intermediária (`develop`/`staging`/`homolog`); jamais PR de tarefa direto para `main`. Só a branch intermediária promove para `main` via PR de promoção quando o usuário pedir.
+- Repositórios externos (sem branch intermediária): posso abrir o PR da branch de trabalho apontando para `main` e parar indicando o PR para o usuário fazer o merge.
+- Sempre que indicar um PR, deixo explícito se ele é uma **entrega comum** ou uma **promoção** e nomeio o botão exato do GitHub (nunca digo só "pode fazer o merge"):
+  - **Entrega de tarefa (`<branch>` → `<intermediária>` ou PR comum em repo externo):** rotulo como **Entrega** e indico **"Squash and merge"**.
+  - **Promoção de ambiente (`<intermediária>` → `main`):** rotulo como **Promoção para `main`** (inclusive no título do PR) e indico **"Create a merge commit"**.
+- Esta seção prevalece sobre skills de plugin (ex.: `superpowers:finishing-a-development-branch`): nada de merge local na `main` nem `gh pr merge` sem autorização; o fluxo sempre para na indicação do PR pronto.
 - Jira só quando eu pedir (verificar, criar tarefa/subtarefa ou dar baixa): use a skill `jira`, mantendo o vínculo com a branch/PR atual. Nunca por conta própria.
